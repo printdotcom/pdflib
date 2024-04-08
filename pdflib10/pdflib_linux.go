@@ -17,6 +17,8 @@
 
 package pdflib
 
-// #cgo CFLAGS: -Iinclude
-// #cgo LDFLAGS: -L${SRCDIR}/lib -lpdf-linux -lm
+/*
+#include "pdflib.h"
+#include "golang.h"
+*/
 import "C"
