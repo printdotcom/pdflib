@@ -1,5 +1,5 @@
 /*---------------------------------------------------------------------------*
- |          Copyright (c) 1997-2019 PDFlib GmbH. All rights reserved.        |
+ |          Copyright (c) 1997-2022 PDFlib GmbH. All rights reserved.        |
  +---------------------------------------------------------------------------+
  |    This software may not be copied or distributed except as expressly     |
  |    authorized by PDFlib GmbH's general license agreement or a custom      |
@@ -10,9 +10,7 @@
 /*
  * Public function declarations for PDFlib, PDFlib+PDI, and PPS;
  * see PDFlib API Reference for details.
- *
  */
-
 
 #ifndef PDFLIB_H
 #define PDFLIB_H
@@ -32,12 +30,11 @@ extern "C" {
  * include file against the library.
  */
 
-#define PDFLIB_MAJORVERSION	10	        /* major version number */
-#define PDFLIB_MINORVERSION	0       	/* minor version number */
-#define PDFLIB_REVISION		2       	/* revision number */
-#define PDFLIB_SHORT_VERSIONSTRING "10"          /* short version number */
+#define PDFLIB_MAJORVERSION	10	          /* major version number */
+#define PDFLIB_MINORVERSION	0       	  /* minor version number */
+#define PDFLIB_REVISION		2       	  /* revision number */
+#define PDFLIB_SHORT_VERSIONSTRING "10"           /* short version number */
 #define PDFLIB_LONG_VERSIONSTRING  "10.0.2" /* full version number*/
-
 
 /*
  * ----------------------------------------------------------------------
@@ -72,7 +69,7 @@ extern "C" {
 #endif /* WIN32 */
 
 #ifndef PDFLIB_CALL
-    #define PDFLIB_CALL	/* */	/* default: no special calling conventions */
+    #define PDFLIB_CALL	/* */	 /* default: no special calling conventions */
 #endif
 
 #ifndef PDFLIB_API
@@ -91,29 +88,12 @@ extern "C" {
 
 #endif
 
-#if !defined(PDF)  || defined(ACTIVEX)
-       typedef struct PDF_s PDF;
-#endif /* !PDF */
+typedef struct PDF_s PDF;
 
-/* The API structure with function pointers. */
-typedef struct PDFlib_api_s PDFlib_api;
-
-/* enums for the return values of unsupported function PDF_get_unicode_format()
-*/
-typedef enum
-{
-    pdf_uni_none     = 0,   /* no Unicode format */
-    pdf_uni_utf8     = 5,   /* UTF-8 */
-    pdf_uni_utf16    = 7,   /* UTF-16 */
-    pdf_uni_utf16be  = 8,   /* UTF-16 BE */
-    pdf_uni_utf16le  = 9,   /* UTF-16 LE */
-    pdf_uni_utf32    = 10   /* UTF-32 */
-}
-pdf_unicode_format;
 
 /*
  * ----------------------------------------------------------------------
- * Function prototypes for all supported API functions
+ * Function prototypes for all supported API methods
  * ----------------------------------------------------------------------
  */
 
@@ -121,44 +101,9 @@ pdf_unicode_format;
 PDFLIB_API void PDFLIB_CALL
 PDF_activate_item(PDF *p, int id);
 
-/* Deprecated, use PDF_create_bookmark(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_add_bookmark(PDF *p, const char *text, int parent, int open));
-
-/* Deprecated, use PDF_create_bookmark(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_add_bookmark2(PDF *p, const char *text, int len, int parent, int open));
-
-/* Deprecated, use PDF_create_action() and PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_launchlink(PDF *p, double llx, double lly, double urx, double ury,
-    const char *filename));
-
-/* Deprecated, use PDF_create_action() and PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_locallink(PDF *p, double llx, double lly, double urx, double ury,
-    int page, const char *optlist));
-
 /* Create a named destination on a page in the document. */
 PDFLIB_API void PDFLIB_CALL
 PDF_add_nameddest(PDF *p, const char *name, int len, const char *optlist);
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_note(PDF *p, double llx, double lly, double urx, double ury,
-    const char *contents, const char *title, const char *icon, int open));
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_note2(PDF *p, double llx, double lly, double urx, double ury,
-    const char *contents, int len_cont, const char *title, int len_title,
-    const char *icon, int open));
 
 /* Add a point to a new or existing path object.
    Returns: A path handle which can be used in subsequent path-related calls.
@@ -167,20 +112,14 @@ PDFLIB_API int PDFLIB_CALL
 PDF_add_path_point(PDF *p, int path, double x, double y,
     const char *type, const char *optlist);
 
-/* Deprecated, use PDF_create_action() and PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_pdflink(PDF *p, double llx, double lly, double urx, double ury,
-    const char *filename, int page, const char *optlist));
-
-/* Add a file to a portfolio folder or a package (requires PDF 1.7).
+/* Add a file to a portfolio folder or a package.
    Returns: -1 (in PHP: 0) on error, and 1 otherwise.
 */
 PDFLIB_API int PDFLIB_CALL
 PDF_add_portfolio_file(PDF *p, int folder, const char *filename, int len,
     const char *optlist);
 
-/* Add a folder to a new or existing portfolio (requires PDF 1.7ext3).
+/* Add a folder to a new or existing portfolio.
    Returns: A folder handle which can be used in subsequent
    portfolio-related calls.
 */
@@ -203,17 +142,6 @@ PDFLIB_API int PDFLIB_CALL
 PDF_add_textflow(PDF *p, int textflow, const char *text, int len,
     const char *optlist);
 
-/* Deprecated */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_thumbnail(PDF *p, int image));
-
-/* Deprecated, use PDF_create_action() and PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_add_weblink(PDF *p, double llx, double lly, double urx, double ury,
-    const char *url));
-
 /* Align the coordinate system with a relative vector. */
 PDFLIB_API void PDFLIB_CALL
 PDF_align(PDF *p, double dx, double dy);
@@ -225,21 +153,6 @@ PDF_arc(PDF *p, double x, double y, double r, double alpha, double beta);
 /* Draw a clockwise circular arc segment. */
 PDFLIB_API void PDFLIB_CALL
 PDF_arcn(PDF *p, double x, double y, double r, double alpha, double beta);
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_attach_file(PDF *p, double llx, double lly, double urx, double ury,
-    const char *filename, const char *description, const char *author,
-    const char *mimetype, const char *icon));
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_attach_file2(PDF *p, double llx, double lly, double urx, double ury,
-    const char *filename, int len_filename, const char *description,
-    int len_descr, const char *author, int len_auth, const char *mimetype,
-    const char *icon));
 
 /* Create a new PDF document subject to various options.
    Returns: -1 (in PHP: 0) on error, and 1 otherwise.
@@ -264,12 +177,6 @@ PDF_begin_font(PDF *p, const char *fontname, int len,
     double a, double b, double c, double d, double e, double f,
     const char *optlist);
 
-/* Deprecated, use PDF_begin_glyph_ext(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_begin_glyph(PDF *p, const char *glyphname, double wx,
-    double llx, double lly, double urx, double ury));
-
 /* Start a glyph definition for a Type 3 font. */
 PDFLIB_API void PDFLIB_CALL
 PDF_begin_glyph_ext(PDF *p, int uv, const char *optlist);
@@ -280,7 +187,7 @@ PDF_begin_glyph_ext(PDF *p, int uv, const char *optlist);
 PDFLIB_API int PDFLIB_CALL
 PDF_begin_item(PDF *p, const char *tagname, const char *optlist);
 
-/* Start a layer for subsequent output on the page (requires PDF 1.5). */
+/* Start a layer for subsequent output on the page. */
 PDFLIB_API void PDFLIB_CALL
 PDF_begin_layer(PDF *p, int layer);
 
@@ -288,20 +195,9 @@ PDF_begin_layer(PDF *p, int layer);
 PDFLIB_API void PDFLIB_CALL
 PDF_begin_mc(PDF *p, const char *tagname, const char *optlist);
 
-/* Deprecated, use PDF_begin_page_ext(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_begin_page(PDF *p, double width, double height));
-
 /* Add a new page to the document, and specify various options. */
 PDFLIB_API void PDFLIB_CALL
 PDF_begin_page_ext(PDF *p, double width, double height, const char *optlist);
-
-/* Deprecated, use PDF_begin_pattern_ext(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_begin_pattern(PDF *p,
-    double width, double height, double xstep, double ystep, int painttype));
 
 /* Start the definition of a tiling pattern with options.
    Returns: A pattern handle.
@@ -310,22 +206,12 @@ PDFLIB_API int PDFLIB_CALL
 PDF_begin_pattern_ext(PDF *p,
     double width, double height, const char *optlist);
 
-/* Deprecated, use PDF_begin_template_ext(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_begin_template(PDF *p, double width, double height));
-
 /* Start a template definition.
    Returns: A template handle.
 */
 PDFLIB_API int PDFLIB_CALL
 PDF_begin_template_ext(PDF *p, double width, double height,
     const char *optlist);
-
-/* Deprecated, and not required. */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_boot(void));
 
 /* Check the validity of a PDFlib context (unsupported). */
 PDFLIB_API int PDFLIB_CALL
@@ -343,11 +229,6 @@ PDF_circular_arc(PDF *p, double x1, double y1, double x2, double y2);
 PDFLIB_API void PDFLIB_CALL
 PDF_clip(PDF *p);
 
-/* Deprecated, use PDF_end_document(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_close(PDF *p));
-
 /* Close an open font handle which has not yet been used in the document. */
 PDFLIB_API void PDFLIB_CALL
 PDF_close_font(PDF *p, int font);
@@ -359,11 +240,6 @@ PDF_close_graphics(PDF *p, int graphics);
 /* Close an image or template. */
 PDFLIB_API void PDFLIB_CALL
 PDF_close_image(PDF *p, int image);
-
-/* Deprecated, use PDF_close_pdi_document(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_close_pdi(PDF *p, int doc));
 
 /* Close all open PDI page handles, and close the input PDF document. */
 PDFLIB_API void PDFLIB_CALL
@@ -405,7 +281,7 @@ PDFLIB_API const char * PDFLIB_CALL
 PDF_convert_to_unicode(PDF *p, const char *inputformat,
     const char *inputstring, int inputlen, int *outputlen, const char *optlist);
 
-/* Create a 3D view (requires PDF 1.6).
+/* Create a 3D view.
    Returns: A 3D view handle, or -1 (in PHP: 0) on error.
 */
 PDFLIB_API int PDFLIB_CALL
@@ -434,7 +310,7 @@ PDF_create_devicen(PDF *p, const char *optlist);
 PDFLIB_API int PDFLIB_CALL
 PDF_create_bookmark(PDF *p, const char *text, int len, const char *optlist);
 
-/* Create a form field on the current page subject to various options. */
+/* Create a new form field or fill an imported form field. */
 PDFLIB_API void PDFLIB_CALL
 PDF_create_field(PDF *p, double llx, double lly, double urx, double ury,
     const char *name, int len, const char *type, const char *optlist);
@@ -467,7 +343,7 @@ PDFLIB_API void PDFLIB_CALL
 PDF_curveto(PDF *p,
     double x1, double y1, double x2, double y2, double x3, double y3);
 
-/* Create a new layer definition (requires PDF 1.5).
+/* Create a new layer definition.
    Returns: A layer handle which can be used in subsequent layer-related calls.
 */
 PDFLIB_API int PDFLIB_CALL
@@ -541,18 +417,13 @@ PDF_end_glyph(PDF *p);
 PDFLIB_API void PDFLIB_CALL
 PDF_end_item(PDF *p, int id);
 
-/* Deactivate all active layers (requires PDF 1.5). */
+/* Deactivate all active layers. */
 PDFLIB_API void PDFLIB_CALL
 PDF_end_layer(PDF *p);
 
 /* End the least recently opened marked content sequence. */
 PDFLIB_API void PDFLIB_CALL
 PDF_end_mc(PDF *p);
-
-/* Deprecated, use PDF_end_page_ext(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_end_page(PDF *p));
 
 /* Finish a page and apply various options. */
 PDFLIB_API void PDFLIB_CALL
@@ -562,11 +433,6 @@ PDF_end_page_ext(PDF *p, const char *optlist);
 PDFLIB_API void PDFLIB_CALL
 PDF_end_pattern(PDF *p);
 
-/* Deprecated, use PDF_end_template_ext(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_end_template(PDF *p));
-
 /* Finish a template definition. */
 PDFLIB_API void PDFLIB_CALL
 PDF_end_template_ext(PDF *p, double width, double height);
@@ -574,6 +440,13 @@ PDF_end_template_ext(PDF *p, double width, double height);
 /* End the current path without filling or stroking it. */
 PDFLIB_API void PDFLIB_CALL
 PDF_endpath(PDF *p);
+
+/* Download data from a network resource and store it in a disk-based or
+   virtual file.
+   Returns: -1 (in PHP: 0) on error, and 1 otherwise.
+ */
+PDFLIB_API int PDFLIB_CALL
+PDF_download(PDF *p, const char *filename, int len, const char *optlist);
 
 /* Fill the interior of the path with the current fill color. */
 PDFLIB_API void PDFLIB_CALL
@@ -612,11 +485,6 @@ PDFLIB_API int PDFLIB_CALL
 PDF_fill_textblock(PDF *p, int page, const char *blockname,
     const char *text, int len, const char *optlist);
 
-/* Deprecated, use PDF_load_font(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_findfont(PDF *p, const char *fontname, const char *encoding, int embed));
-
 /* Place vector graphics on a content stream, subject to various options. */
 PDFLIB_API void PDFLIB_CALL
 PDF_fit_graphics(PDF *p, int graphics, double x, double y, const char *optlist);
@@ -648,16 +516,19 @@ PDFLIB_API void PDFLIB_CALL
 PDF_fit_textline(PDF *p, const char *text, int len, double x, double y,
     const char *optlist);
 
+/* The API structure with function pointers. */
+typedef struct PDFlib_api_s PDFlib_api;
+
 /*
  * Retrieve a structure with PDFlib API function pointers (mainly for DLLs).
- * Although this function is published here, it is not supposed to be used
+ * Although this function is published here it is not supposed to be used
  * directly by clients. Use PDF_new_dl() in pdflibdl.c instead.
  */
 PDFLIB_API const PDFlib_api * PDFLIB_CALL
 PDF_get_api(void);
 
-/* Get the name of the API function which threw the last exception or failed.
-   Returns: Name of an API function.
+/* Get the name of the API method which threw the last exception or failed.
+   Returns: Name of an API method.
 */
 PDFLIB_API const char * PDFLIB_CALL
 PDF_get_apiname(PDF *p);
@@ -669,32 +540,18 @@ PDFLIB_API const char * PDFLIB_CALL
 PDF_get_buffer(PDF *p, long *size);
 
 /* Get the text of the last thrown exception or the reason of a failed
-   function call.
+   method call.
    Returns: Text containing the description of the most recent error condition.
 */
 PDFLIB_API const char * PDFLIB_CALL
 PDF_get_errmsg(PDF *p);
 
 /* Get the number of the last thrown exception or the reason of a failed
-   function call.
+   method call.
    Returns: The error code of the most recent error condition.
 */
 PDFLIB_API int PDFLIB_CALL
 PDF_get_errnum(PDF *p);
-
-/* Request the amount of kerning between two glyphs (unsupported). */
-PDFLIB_API double PDFLIB_CALL
-PDF_get_kern_amount(PDF *p, int font, int gidleft, int gidright);
-
-/* Deprecated, use PDF_get_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_get_majorversion(void));
-
-/* Deprecated, use PDF_get_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_get_minorversion(void));
 
 /* Fetch the opaque application pointer stored in PDFlib.
    Returns: The opaque application pointer stored in PDFlib.
@@ -708,39 +565,29 @@ PDF_get_opaque(PDF *p);
 PDFLIB_API double PDFLIB_CALL
 PDF_get_option(PDF *p, const char *keyword, const char *optlist);
 
-/* Deprecated, use PDF_get_option() and PDF_get_string(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_get_parameter(PDF *p, const char *key, double modifier));
-
-/* Deprecated, use PDF_pcos_get_string(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_get_pdi_parameter(PDF *p, const char *key, int doc, int page,
-    int reserved, int *len));
-
-/* Deprecated, use PDF_pcos_get_number. */
-PDFLIB_DEPRECATED(
-PDFLIB_API double PDFLIB_CALL
-PDF_get_pdi_value(PDF *p, const char *key, int doc, int page, int reserved));
-
 /* Retrieve a string value.
    Returns: a string identified by a string index returned by another
-   function. */
+   method. */
 PDFLIB_API const char * PDFLIB_CALL
 PDF_get_string(PDF *p, int idx, const char *optlist);
 
+/* enums for the return values of  PDF_get_unicode_format() */
+typedef enum
+{
+    pdf_uni_none     = 0,   /* no Unicode format */
+    pdf_uni_utf8     = 5,   /* UTF-8 */
+    pdf_uni_utf16    = 7,   /* UTF-16 */
+    pdf_uni_utf16be  = 8,   /* UTF-16 BE */
+    pdf_uni_utf16le  = 9,   /* UTF-16 LE */
+    pdf_uni_utf32    = 10   /* UTF-32 */
+}
+pdf_unicode_format;
+
 /* Get the type of the Unicode format which belongs to the Unicode string
-   returned from the last API function (unsupported)
+   returned from the last API method (unsupported)
 */
 PDFLIB_API pdf_unicode_format PDFLIB_CALL
-PDF_get_unicode_format(
-    PDF *p);
-
-/* Deprecated, use PDF_get_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API double PDFLIB_CALL
-PDF_get_value(PDF *p, const char *key, double modifier));
+PDF_get_unicode_format(PDF *p);
 
 /* Query detailed information about a loaded font.
    Returns: The value of some font property as requested by keyword.
@@ -808,23 +655,17 @@ PDFLIB_API double PDFLIB_CALL
 PDF_info_textline(PDF *p, const char *text, int len, const char *keyword,
     const char *optlist);
 
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_initgraphics(PDF *p));
-
 /* Draw a line from the current point to another point. */
 PDFLIB_API void PDFLIB_CALL
 PDF_lineto(PDF *p, double x, double y);
 
-/* Load a 3D model from a disk-based or virtual file (requires PDF 1.6).
+/* Load a 3D model from a disk-based or virtual file.
    Returns: A 3D handle, or -1 (in PHP: 0) on error.
 */
 PDFLIB_API int PDFLIB_CALL
 PDF_load_3ddata(PDF *p, const char *filename, int len, const char *optlist);
 
-/* Load a rich media asset or file attachment from a disk-based or virtual
-   file.
+/* Load a multimedia asset or file attachment from a file or URL.
    Returns: An asset handle, or -1 (in PHP: 0) on error.
  */
 PDFLIB_API int PDFLIB_CALL
@@ -884,7 +725,7 @@ PDF_new(void);
    allocation routines.
    Returns: A handle to a PDFlib object.
 */
-typedef void  (*errorproc_t)(PDF *p1, int errortype, const char *msg);
+typedef void  (*errorproc_t)(PDF *p1, const char *msg);
 typedef void* (*allocproc_t)(PDF *p2, size_t size, const char *caller);
 typedef void* (*reallocproc_t)(PDF *p3,
                 void *mem, size_t size, const char *caller);
@@ -893,40 +734,6 @@ typedef void  (*freeproc_t)(PDF *p4, void *mem);
 PDFLIB_API PDF * PDFLIB_CALL
 PDF_new2(errorproc_t errorhandler, allocproc_t allocproc,
         reallocproc_t reallocproc, freeproc_t freeproc, void *opaque);
-
-/* Deprecated, use PDF_load_image(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_open_CCITT(PDF *p, const char *filename, int width, int height,
-    int BitReverse, int K, int BlackIs1));
-
-/* Deprecated, use PDF_begin_document(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_open_file(PDF *p, const char *filename));
-
-/* Deprecated, use PDF_load_image() with virtual files. */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_open_image(PDF *p, const char *imagetype, const char *source,
-    const char *data, long length, int width, int height, int components,
-    int bpc, const char *params));
-
-/* Deprecated, use PDF_load_image(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_open_image_file(PDF *p, const char *imagetype, const char *filename,
-    const char *stringparam, int intparam));
-
-/* Deprecated, use PDF_begin_document_callback(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_open_mem(PDF *p, writeproc_t writeproc));
-
-/* Deprecated, use PDF_open_pdi_document(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_open_pdi(PDF *p, const char *filename, const char *optlist, int len));
 
 /* Open a disk-based or virtual PDF document and prepare it for later use.
    Returns: A PDI document handle.
@@ -989,16 +796,6 @@ PDFLIB_API const unsigned char * PDFLIB_CALL
 PDF_pcos_get_stream(PDF *p, int doc, int *length, const char *optlist,
     const char *path, ...);
 
-/* Deprecated, use PDF_fit_image(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_place_image(PDF *p, int image, double x, double y, double scale));
-
-/* Deprecated, use PDF_fit_pdi_page(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_place_pdi_page(PDF *p, int page, double x, double y, double sx, double sy));
-
 /* Delete a PDF container object. */
 PDFLIB_API void PDFLIB_CALL
 PDF_poca_delete(PDF *p, int container, const char *optlist);
@@ -1007,8 +804,8 @@ PDF_poca_delete(PDF *p, int container, const char *optlist);
 PDFLIB_API void PDFLIB_CALL
 PDF_poca_insert(PDF *p, int container, const char *optlist);
 
-/* Create a new PDF container object of type dictionary, array, or stream
-   and insert objects.
+/* Create a new PDF container object of type dictionary or array and
+   insert objects.
    Returns: A container handle which can be used until it is deleted with
    PDF_poca_delete().
 */
@@ -1023,12 +820,7 @@ PDF_poca_remove(PDF *p, int container, const char *optlist);
    Returns: -1 (in PHP: 0) on error, and 1 otherwise.
 */
 PDFLIB_API int PDFLIB_CALL
-PDF_process_pdi(PDF *p, int doc, int page, const char *optlist);
-
-/* Draw a Bezier curve using relative coordinates (unsupported). */
-PDFLIB_API void PDFLIB_CALL
-PDF_rcurveto(PDF *p,
-    double x1, double y1, double x2, double y2, double x3, double y3);
+PDF_process_pdi(PDF *p, int doc, int pagenumber, const char *optlist);
 
 /* Draw a rectangle. */
 PDFLIB_API void PDFLIB_CALL
@@ -1042,14 +834,6 @@ PDF_restore(PDF *p);
 PDFLIB_API void PDFLIB_CALL
 PDF_resume_page(PDF *p, const char *optlist);
 
-/* Draw a line from the current point to (cp + (x, y)) (unsupported). */
-PDFLIB_API void PDFLIB_CALL
-PDF_rlineto(PDF *p, double x, double y);
-
-/* Set the new current point relative the old current point (unsupported). */
-PDFLIB_API void PDFLIB_CALL
-PDF_rmoveto(PDF *p, double x, double y);
-
 /* Rotate the coordinate system. */
 PDFLIB_API void PDFLIB_CALL
 PDF_rotate(PDF *p, double phi);
@@ -1061,21 +845,6 @@ PDF_save(PDF *p);
 /* Scale the coordinate system. */
 PDFLIB_API void PDFLIB_CALL
 PDF_scale(PDF *p, double sx, double sy);
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_set_border_color(PDF *p, double red, double green, double blue));
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_set_border_dash(PDF *p, double b, double w));
-
-/* Deprecated, use PDF_create_annotation(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_set_border_style(PDF *p, const char *style, double width));
 
 /* Set one or more graphics appearance options. */
 PDFLIB_API void PDFLIB_CALL
@@ -1093,7 +862,12 @@ PDF_set_info(PDF *p, const char *key, const char *value);
 PDFLIB_API void PDFLIB_CALL
 PDF_set_info2(PDF *p, const char *key, const char *value, int len);
 
-/* Define layer relationships (requires PDF 1.5). */
+/* Set one or more internal options for PDFlib (unsupported).
+*/
+PDFLIB_API void PDFLIB_CALL
+PDF_set_internal_option(PDF *p, const char *optlist);
+
+/* Define layer relationships. */
 PDFLIB_API void PDFLIB_CALL
 PDF_set_layer_dependency(PDF *p, const char *type, const char *optlist);
 
@@ -1101,14 +875,8 @@ PDF_set_layer_dependency(PDF *p, const char *type, const char *optlist);
 PDFLIB_API void PDFLIB_CALL
 PDF_set_option(PDF *p, const char *optlist);
 
-/* Deprecated, use PDF_set_option(), PDF_set_text_option(),
-   and PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_set_parameter(PDF *p, const char *key, const char *value));
-
 /* Set one or more text filter or text appearance options for simple text
-   output functions. */
+   output methods. */
 PDFLIB_API void PDFLIB_CALL
 PDF_set_text_option(PDF *p, const char *optlist);
 
@@ -1116,65 +884,14 @@ PDF_set_text_option(PDF *p, const char *optlist);
 PDFLIB_API void PDFLIB_CALL
 PDF_set_text_pos(PDF *p, double x, double y);
 
-/* Register a variable name (currently unsupported). */
-PDFLIB_API int PDFLIB_CALL
-PDF_set_textflow_variable(PDF *p, const char *varname, int namelen,
-    const char *text, int textlen, const char *optlist);
-
-/* Deprecated, use PDF_set_option(), PDF_set_text_option(),
-   and PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_set_value(PDF *p, const char *key, double value));
-
 /* Set the color space and color for the graphics and text state. */
 PDFLIB_API void PDFLIB_CALL
 PDF_setcolor(PDF *p, const char *fstype, const char *colorspace,
     double c1, double c2, double c3, double c4);
 
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setdash(PDF *p, double b, double w));
-
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setdashpattern(PDF *p, const char *optlist));
-
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setflat(PDF *p, double flatness));
-
 /* Set the current font in the specified size. */
 PDFLIB_API void PDFLIB_CALL
 PDF_setfont(PDF *p, int font, double fontsize);
-
-/* Deprecated, use PDF_setcolor(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setgray(PDF *p, double gray));
-
-/* Deprecated, use PDF_setcolor(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setgray_fill(PDF *p, double gray));
-
-/* Deprecated, use PDF_setcolor(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setgray_stroke(PDF *p, double gray));
-
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setlinecap(PDF *p, int linecap));
-
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setlinejoin(PDF *p, int linejoin));
 
 /* Set the current linewidth. */
 PDFLIB_API void PDFLIB_CALL
@@ -1184,31 +901,6 @@ PDF_setlinewidth(PDF *p, double width);
 PDFLIB_API void PDFLIB_CALL
 PDF_setmatrix(PDF *p, double a, double b, double c, double d,
     double e, double f);
-
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setmiterlimit(PDF *p, double miter));
-
-/* Deprecated, use PDF_set_graphics_option(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setpolydash(PDF *p, float *dasharray, int length));
-
-/* Deprecated, use PDF_setcolor(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setrgbcolor(PDF *p, double red, double green, double blue));
-
-/* Deprecated, use PDF_setcolor(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setrgbcolor_fill(PDF *p, double red, double green, double blue));
-
-/* Deprecated, use PDF_setcolor(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_setrgbcolor_stroke(PDF *p, double red, double green, double blue));
 
 /* Define a shading (color gradient) between two or more colors.
    Returns: A shading handle.
@@ -1236,18 +928,6 @@ PDF_show(PDF *p, const char *text);
 PDFLIB_API void PDFLIB_CALL
 PDF_show2(PDF *p, const char *text, int len);
 
-/* Deprecated, use PDF_fit_textline() or PDF_fit_textflow(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_show_boxed(PDF *p, const char *text, double left, double top,
-    double width, double height, const char *hmode, const char *feature));
-
-/* Deprecated, use PDF_fit_textline() or PDF_fit_textflow(). */
-PDFLIB_DEPRECATED(
-PDFLIB_API int PDFLIB_CALL
-PDF_show_boxed2(PDF *p, const char *text, int len, double left, double top,
-    double width, double height, const char *hmode, const char *feature));
-
 /* Print text in the current font at the specified position. */
 PDFLIB_API void PDFLIB_CALL
 PDF_show_xy(PDF *p, const char *text, double x, double y);
@@ -1255,11 +935,6 @@ PDF_show_xy(PDF *p, const char *text, double x, double y);
 /* Same as PDF_show_xy(), but with explicit string length. */
 PDFLIB_API void PDFLIB_CALL
 PDF_show_xy2(PDF *p, const char *text, int len, double x, double y);
-
-/* Deprecated, and not required. */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_shutdown(void));
 
 /* Skew the coordinate system. */
 PDFLIB_API void PDFLIB_CALL
@@ -1290,49 +965,9 @@ PDF_suspend_page(PDF *p, const char *optlist);
 PDFLIB_API void PDFLIB_CALL
 PDF_translate(PDF *p, double tx, double ty);
 
-/* Deprecated, use PDF_convert_to_unicode() */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_utf16_to_utf8(PDF *p, const char *utf16string, int len, int *size));
-
-/* Deprecated, use PDF_convert_to_unicode() */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_utf8_to_utf16(PDF *p, const char *utf8string, const char *ordering,
-    int *size));
-
-/* Deprecated, use PDF_convert_to_unicode() */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_utf32_to_utf8(PDF *p, const char *utf32string, int len, int *size));
-
-/* Deprecated, use PDF_convert_to_unicode() */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_utf8_to_utf32(PDF *p, const char *utf8string, const char *ordering,
-    int *size));
-
-/* Deprecated, use PDF_convert_to_unicode() */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_utf16_to_utf32(PDF *p, const char *utf16string, int len,
-    const char *ordering, int *size));
-
-/* Deprecated, use PDF_convert_to_unicode() */
-PDFLIB_DEPRECATED(
-PDFLIB_API const char * PDFLIB_CALL
-PDF_utf32_to_utf16(PDF *p, const char *utf32string, int len,
-    const char *ordering, int *size));
-
-/* Deprecated, use PDF_fit_textline() with "xadvancelist" option */
-PDFLIB_DEPRECATED(
-PDFLIB_API void PDFLIB_CALL
-PDF_xshow(PDF *p, const char *text, int len, const double *xadvancelist));
-
-
 /*
  * ----------------------------------------------------------------------
- * PDFlib API structure with function pointers to all API functions
+ * PDFlib API structure with function pointers to all API methods
  * ----------------------------------------------------------------------
  */
 
@@ -1342,7 +977,7 @@ typedef struct
     jmp_buf	jbuf;
 } pdf_jmpbuf;
 
-/* The API structure with pointers to all PDFlib API functions */
+/* The API structure with pointers to all PDFlib API methods */
 struct PDFlib_api_s {
     /* version numbers for checking the DLL against client code */
     size_t sizeof_PDFlib_api;	/* size of this structure */
@@ -1464,6 +1099,8 @@ struct PDFlib_api_s {
     void (PDFLIB_CALL * PDF_end_template_ext)(PDF *p,
                 double width, double height);
     void (PDFLIB_CALL * PDF_endpath)(PDF *p);
+    int (PDFLIB_CALL * PDF_download)(PDF *p, const char *filename,
+                int len, const char *optlist);
     void (PDFLIB_CALL * PDF_fill)(PDF *p);
     int (PDFLIB_CALL * PDF_fill_graphicsblock)(PDF *p, int page,
                 const char *blockname, int graphics, const char *optlist);
@@ -1568,9 +1205,6 @@ struct PDFlib_api_s {
                 const char *optlist);
     void (PDFLIB_CALL * PDF_rect)(PDF *p, double x, double y,
                 double width, double height);
-    int (PDFLIB_CALL * PDF_set_textflow_variable)(PDF *p, const char *varname,
-                int namelen, const char *text, int textlen,
-                const char *optlist);
     void (PDFLIB_CALL * PDF_restore)(PDF *p);
     void (PDFLIB_CALL * PDF_resume_page)(PDF *p, const char *optlist);
     void (PDFLIB_CALL * PDF_rotate)(PDF *p, double phi);
@@ -1582,6 +1216,7 @@ struct PDFlib_api_s {
 	        const char *value);
     void (PDFLIB_CALL * PDF_set_info2)(PDF *p, const char *key,
 	        const char *value, int len);
+    void (PDFLIB_CALL * PDF_set_internal_option)(PDF *p, const char *optlist);
     void (PDFLIB_CALL * PDF_set_layer_dependency)(PDF *p, const char *type,
                 const char *optlist);
     void (PDFLIB_CALL * PDF_set_option)(PDF *p, const char *optlist);
@@ -1619,131 +1254,7 @@ struct PDFlib_api_s {
     void (PDFLIB_CALL * pdf_exit_try)(PDF *p);
     pdf_jmpbuf * (PDFLIB_CALL * pdf_jbuf)(PDF *p);
     void (PDFLIB_CALL * pdf_rethrow)(PDF *p);
-
-    /* deprecated functions
-    */
-    const char * (PDFLIB_CALL * PDF_get_parameter)(PDF *p,
-                const char *key, double modifier);
-    double (PDFLIB_CALL * PDF_get_value)(PDF *p, const char *key,
-                double modifier);
-    void (PDFLIB_CALL * PDF_set_parameter)(PDF *p, const char *key,
-                const char *value);
-    void (PDFLIB_CALL * PDF_set_value)(PDF *p, const char *key, double value);
-    const char * (PDFLIB_CALL * PDF_utf16_to_utf8)(PDF *p,
-                const char *utf16string, int len, int *size);
-    const char * (PDFLIB_CALL * PDF_utf8_to_utf16)(PDF *p,
-                const char *utf8string, const char *ordering, int *size);
-    const char * (PDFLIB_CALL * PDF_utf32_to_utf8)(PDF *p,
-                const char *utf32string, int len, int *size);
-    const char * (PDFLIB_CALL * PDF_utf8_to_utf32)(PDF *p,
-                const char *utf8string, const char *ordering, int *size);
-    const char * (PDFLIB_CALL * PDF_utf16_to_utf32)(PDF *p,
-                const char *utf16string, int len, const char *ordering,
-                int *size);
-    const char * (PDFLIB_CALL * PDF_utf32_to_utf16)(PDF *p,
-                const char *utf32string, int len, const char *ordering,
-                int *size);
-#if !defined(PDF_CFG_ME) && !defined(PDF_CFG_ME_WITH_SECURITY)
-    /* suppress deprecated APIs for the Mini Edition */
-    int (PDFLIB_CALL * PDF_add_bookmark)(PDF *p, const char *text,
-                int parent, int open);
-    int (PDFLIB_CALL * PDF_add_bookmark2)(PDF *p, const char *text, int len,
-                int parent, int open);
-    void (PDFLIB_CALL * PDF_add_launchlink)(PDF *p,
-                double llx, double lly, double urx,
-                double ury, const char *filename);
-    void (PDFLIB_CALL * PDF_add_locallink)(PDF *p,
-                double llx, double lly, double urx,
-                double ury, int page, const char *optlist);
-    void (PDFLIB_CALL * PDF_add_note)(PDF *p, double llx, double lly,
-                double urx, double ury, const char *contents, const char *title,
-                const char *icon, int open);
-    void (PDFLIB_CALL * PDF_add_note2)(PDF *p, double llx, double lly,
-                double urx, double ury, const char *contents, int len_cont,
-                const char *title, int len_title, const char *icon, int open);
-    void (PDFLIB_CALL * PDF_add_pdflink)(PDF *p,
-                double llx, double lly, double urx, double ury,
-                const char *filename, int page, const char *optlist);
-    void (PDFLIB_CALL * PDF_add_thumbnail)(PDF *p, int image);
-    void (PDFLIB_CALL * PDF_add_weblink)(PDF *p, double llx,
-                double lly, double urx, double ury, const char *url);
-    void (PDFLIB_CALL * PDF_attach_file)(PDF *p, double llx, double lly,
-                double urx, double ury, const char *filename,
-                const char *description,
-                const char *author, const char *mimetype, const char *icon);
-    void (PDFLIB_CALL * PDF_attach_file2)(PDF *p, double llx, double lly,
-                double urx, double ury, const char *filename, int len_filename,
-                const char *description, int len_descr, const char *author,
-                int len_auth, const char *mimetype, const char *icon);
-    void (PDFLIB_CALL * PDF_begin_glyph)(PDF *p, const char *glyphname,
-                double wx, double llx, double lly, double urx, double ury);
-    void (PDFLIB_CALL * PDF_begin_page)(PDF *p, double width, double height);
-    int (PDFLIB_CALL * PDF_begin_pattern)(PDF *p, double width, double height,
-                double xstep, double ystep, int painttype);
-    int (PDFLIB_CALL * PDF_begin_template)(PDF *p,
-                double width, double height);
-    void (PDFLIB_CALL * PDF_boot)(void);
-    void (PDFLIB_CALL * PDF_close)(PDF *p);
-    void (PDFLIB_CALL * PDF_close_pdi)(PDF *p, int doc);
-    void (PDFLIB_CALL * PDF_end_page)(PDF *p);
-    void (PDFLIB_CALL * PDF_end_template)(PDF *p);
-    int (PDFLIB_CALL * PDF_findfont)(PDF *p, const char *fontname,
-                const char *encoding, int embed);
-    int (PDFLIB_CALL * PDF_get_majorversion)(void);
-    int (PDFLIB_CALL * PDF_get_minorversion)(void);
-    const char * (PDFLIB_CALL * PDF_get_pdi_parameter)(PDF *p,
-                const char *key, int doc, int page, int reserved, int *len);
-    double (PDFLIB_CALL * PDF_get_pdi_value)(PDF *p, const char *key,
-                int doc, int page, int reserved);
-    void (PDFLIB_CALL * PDF_initgraphics)(PDF *p);
-    int (PDFLIB_CALL * PDF_open_CCITT)(PDF *p, const char *filename,
-                int width, int height, int BitReverse, int K, int BlackIs1);
-    int (PDFLIB_CALL * PDF_open_file)(PDF *p, const char *filename);
-    int (PDFLIB_CALL * PDF_open_image)(PDF *p, const char *imagetype,
-                const char *source, const char *data, long length, int width,
-                int height, int components, int bpc, const char *params);
-    int (PDFLIB_CALL * PDF_open_image_file)(PDF *p, const char *imagetype,
-                const char *filename, const char *stringparam, int intparam);
-    void (PDFLIB_CALL * PDF_open_mem)(PDF *p, writeproc_t writeproc);
-    int (PDFLIB_CALL * PDF_open_pdi)(PDF *p, const char *filename,
-                const char *optlist, int len);
-    void (PDFLIB_CALL * PDF_place_image)(PDF *p, int image,
-                double x, double y, double scale);
-    void (PDFLIB_CALL * PDF_place_pdi_page)(PDF *p, int page,
-                double x, double y, double sx, double sy);
-    void (PDFLIB_CALL * PDF_set_border_color)(PDF *p,
-                double red, double green, double blue);
-    void (PDFLIB_CALL * PDF_set_border_dash)(PDF *p, double b, double w);
-    void (PDFLIB_CALL * PDF_set_border_style)(PDF *p,
-                const char *style, double width);
-    void (PDFLIB_CALL * PDF_setdash)(PDF *p, double b, double w);
-    void (PDFLIB_CALL * PDF_setdashpattern)(PDF *p, const char *optlist);
-    void (PDFLIB_CALL * PDF_setflat)(PDF *p, double flatness);
-    void (PDFLIB_CALL * PDF_setgray)(PDF *p, double gray);
-    void (PDFLIB_CALL * PDF_setgray_fill)(PDF *p, double gray);
-    void (PDFLIB_CALL * PDF_setgray_stroke)(PDF *p, double gray);
-    void (PDFLIB_CALL * PDF_setlinecap)(PDF *p, int linecap);
-    void (PDFLIB_CALL * PDF_setlinejoin)(PDF *p, int linejoin);
-    void (PDFLIB_CALL * PDF_setmiterlimit)(PDF *p, double miter);
-    void (PDFLIB_CALL * PDF_setpolydash)(PDF *p, float *dasharray, int length);
-    void (PDFLIB_CALL * PDF_setrgbcolor)(PDF *p, double red, double green,
-                double blue);
-    void (PDFLIB_CALL * PDF_setrgbcolor_fill)(PDF *p,
-                double red, double green, double blue);
-    void (PDFLIB_CALL * PDF_setrgbcolor_stroke)(PDF *p,
-                double red, double green, double blue);
-    int (PDFLIB_CALL * PDF_show_boxed)(PDF *p, const char *text,
-                double left, double top, double width, double height,
-                const char *hmode, const char *feature);
-    int (PDFLIB_CALL * PDF_show_boxed2)(PDF *p, const char *text, int len,
-                double left, double top, double width, double height,
-                const char *hmode, const char *feature);
-    void (PDFLIB_CALL * PDF_shutdown)(void);
-    void (PDFLIB_CALL * PDF_xshow)(PDF *p, const char *text, int len,
-                const double *xadvancelist);
-#endif /* !defined(PDF_CFG_ME) && !defined(PDF_CFG_ME_WITH_SECURITY) */
 };
-
 
 /*
  * ----------------------------------------------------------------------
@@ -1758,8 +1269,9 @@ struct PDFlib_api_s {
 
 #ifndef PDF_PCOS_ENUMS
 
-/* document access levels.
-*/
+/*
+ * Numerical values for the pCOS pseudo object "pcosmode".
+ */
 typedef enum
 {
     pcos_mode_minimum	 = 0, /* encrypted doc (opened w/o password)	      */
@@ -1768,8 +1280,10 @@ typedef enum
 } pcos_mode;
 
 
-/* object types.
-*/
+/*
+ * Numerical values for the object types retrieved with the pCOS prefix "type:"
+ * and the method PDF_pcos_get_number().
+ */
 typedef enum
 {
     pcos_ot_null	= 0,
@@ -1824,7 +1338,7 @@ typedef enum
 /*
  * The page sizes are only available to the C and C++ bindings.
  * These are deprecated; corresponding options are supported in
- * PDF_begin_page_ext().
+ * PDF_begin_page_ext() and PDF_begin_template_ext().
  */
 
 #define a0_width	 2380.0
@@ -1852,20 +1366,9 @@ typedef enum
 #define p11x17_width	 792.0
 #define p11x17_height	 1224.0
 
-
 /*
  * ----------------------------------------------------------------------
- * Deprecated: Error classes
- * Old-style error handlers are still supported, but
- * they will always receive PDF_UnknownError.
- * ----------------------------------------------------------------------
- */
-
-#define PDF_UnknownError  12
-
-/*
- * ----------------------------------------------------------------------
- * Private stuff, do not use explicitly but only via the macros above!
+ * Private stuff, do not use!
  * ----------------------------------------------------------------------
  */
 
