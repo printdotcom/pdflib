@@ -29,10 +29,6 @@ int _PDF_add_textflow(PDF *p, int textflow, const char *text, int len, const cha
 	PDF_TRY(p) { return PDF_add_textflow(p, textflow, text, len, optlist); } PDF_CATCH(p) { } return -1;
 }
 
-void _PDF_add_thumbnail(PDF *p, int image) {
-	PDF_TRY(p) { PDF_add_thumbnail(p, image); } PDF_CATCH(p) { }
-}
-
 void _PDF_align(PDF *p, double dx, double dy) {
 	PDF_TRY(p) { PDF_align(p, dx, dy); } PDF_CATCH(p) { }
 }

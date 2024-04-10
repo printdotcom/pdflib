@@ -18,8 +18,6 @@ int _PDF_add_table_cell(PDF *p, int table, int column, int row, const char *text
 
 int _PDF_add_textflow(PDF *p, int textflow, const char *text, int len, const char *optlist);
 
-void _PDF_add_thumbnail(PDF *p, int image);
-
 void _PDF_align(PDF *p, double dx, double dy);
 
 void _PDF_arc(PDF *p, double x, double y, double r, double alpha, double beta);

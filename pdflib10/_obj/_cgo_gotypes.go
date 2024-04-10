@@ -87,40 +87,40 @@ func _cgo_runtime_gostringn(*_Ctype_char, int) string
 func _Cfunc_GoStringN(p *_Ctype_char, l _Ctype_int) string {
 	return _cgo_runtime_gostringn(p, int(l))
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc_PDF_get_buffer
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc_PDF_get_buffer _cgo_5cb37de88943_Cfunc_PDF_get_buffer
-var __cgofn__cgo_5cb37de88943_Cfunc_PDF_get_buffer byte
-var _cgo_5cb37de88943_Cfunc_PDF_get_buffer = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc_PDF_get_buffer)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc_PDF_get_buffer
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc_PDF_get_buffer _cgo_0d5f714d6325_Cfunc_PDF_get_buffer
+var __cgofn__cgo_0d5f714d6325_Cfunc_PDF_get_buffer byte
+var _cgo_0d5f714d6325_Cfunc_PDF_get_buffer = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc_PDF_get_buffer)
 
 //go:cgo_unsafe_args
 func _Cfunc_PDF_get_buffer(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_long) (r1 *_Ctype_char) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc_PDF_get_buffer, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc_PDF_get_buffer, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc_PDF_new
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc_PDF_new _cgo_5cb37de88943_Cfunc_PDF_new
-var __cgofn__cgo_5cb37de88943_Cfunc_PDF_new byte
-var _cgo_5cb37de88943_Cfunc_PDF_new = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc_PDF_new)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc_PDF_new
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc_PDF_new _cgo_0d5f714d6325_Cfunc_PDF_new
+var __cgofn__cgo_0d5f714d6325_Cfunc_PDF_new byte
+var _cgo_0d5f714d6325_Cfunc_PDF_new = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc_PDF_new)
 
 //go:cgo_unsafe_args
 func _Cfunc_PDF_new() (r1 *_Ctype_struct_PDF_s) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc_PDF_new, uintptr(unsafe.Pointer(&r1)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc_PDF_new, uintptr(unsafe.Pointer(&r1)))
 	if _Cgo_always_false {
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_add_nameddest
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_nameddest _cgo_5cb37de88943_Cfunc__PDF_add_nameddest
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_nameddest byte
-var _cgo_5cb37de88943_Cfunc__PDF_add_nameddest = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_add_nameddest)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_add_nameddest
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_nameddest _cgo_0d5f714d6325_Cfunc__PDF_add_nameddest
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_nameddest byte
+var _cgo_0d5f714d6325_Cfunc__PDF_add_nameddest = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_nameddest)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_add_nameddest(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_add_nameddest, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_add_nameddest, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -129,14 +129,14 @@ func _Cfunc__PDF_add_nameddest(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_add_path_point
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_path_point _cgo_5cb37de88943_Cfunc__PDF_add_path_point
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_path_point byte
-var _cgo_5cb37de88943_Cfunc__PDF_add_path_point = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_add_path_point)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_add_path_point
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_path_point _cgo_0d5f714d6325_Cfunc__PDF_add_path_point
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_path_point byte
+var _cgo_0d5f714d6325_Cfunc__PDF_add_path_point = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_path_point)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_add_path_point(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 *_Ctype_char, p5 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_add_path_point, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_add_path_point, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -147,14 +147,14 @@ func _Cfunc__PDF_add_path_point(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_add_table_cell
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_table_cell _cgo_5cb37de88943_Cfunc__PDF_add_table_cell
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_table_cell byte
-var _cgo_5cb37de88943_Cfunc__PDF_add_table_cell = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_add_table_cell)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_add_table_cell
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_table_cell _cgo_0d5f714d6325_Cfunc__PDF_add_table_cell
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_table_cell byte
+var _cgo_0d5f714d6325_Cfunc__PDF_add_table_cell = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_table_cell)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_add_table_cell(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_int, p3 _Ctype_int, p4 *_Ctype_char, p5 _Ctype_int, p6 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_add_table_cell, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_add_table_cell, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -166,14 +166,14 @@ func _Cfunc__PDF_add_table_cell(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_add_textflow
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_textflow _cgo_5cb37de88943_Cfunc__PDF_add_textflow
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_textflow byte
-var _cgo_5cb37de88943_Cfunc__PDF_add_textflow = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_add_textflow)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_add_textflow
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_textflow _cgo_0d5f714d6325_Cfunc__PDF_add_textflow
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_textflow byte
+var _cgo_0d5f714d6325_Cfunc__PDF_add_textflow = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_add_textflow)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_add_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 _Ctype_int, p4 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_add_textflow, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_add_textflow, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -183,28 +183,14 @@ func _Cfunc__PDF_add_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_add_thumbnail
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_thumbnail _cgo_5cb37de88943_Cfunc__PDF_add_thumbnail
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_add_thumbnail byte
-var _cgo_5cb37de88943_Cfunc__PDF_add_thumbnail = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_add_thumbnail)
-
-//go:cgo_unsafe_args
-func _Cfunc__PDF_add_thumbnail(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_add_thumbnail, uintptr(unsafe.Pointer(&p0)))
-	if _Cgo_always_false {
-		_Cgo_use(p0)
-		_Cgo_use(p1)
-	}
-	return
-}
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_align
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_align _cgo_5cb37de88943_Cfunc__PDF_align
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_align byte
-var _cgo_5cb37de88943_Cfunc__PDF_align = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_align)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_align
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_align _cgo_0d5f714d6325_Cfunc__PDF_align
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_align byte
+var _cgo_0d5f714d6325_Cfunc__PDF_align = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_align)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_align(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_align, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_align, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -212,14 +198,14 @@ func _Cfunc__PDF_align(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_doub
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_arc
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_arc _cgo_5cb37de88943_Cfunc__PDF_arc
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_arc byte
-var _cgo_5cb37de88943_Cfunc__PDF_arc = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_arc)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_arc
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_arc _cgo_0d5f714d6325_Cfunc__PDF_arc
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_arc byte
+var _cgo_0d5f714d6325_Cfunc__PDF_arc = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_arc)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_arc(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_arc, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_arc, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -230,14 +216,14 @@ func _Cfunc__PDF_arc(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_arcn
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_arcn _cgo_5cb37de88943_Cfunc__PDF_arcn
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_arcn byte
-var _cgo_5cb37de88943_Cfunc__PDF_arcn = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_arcn)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_arcn
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_arcn _cgo_0d5f714d6325_Cfunc__PDF_arcn
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_arcn byte
+var _cgo_0d5f714d6325_Cfunc__PDF_arcn = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_arcn)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_arcn(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_arcn, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_arcn, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -248,14 +234,14 @@ func _Cfunc__PDF_arcn(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_doubl
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_document
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_document _cgo_5cb37de88943_Cfunc__PDF_begin_document
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_document byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_document = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_document)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_document
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_document _cgo_0d5f714d6325_Cfunc__PDF_begin_document
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_document byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_document = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_document)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_document(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_document, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_document, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -264,14 +250,14 @@ func _Cfunc__PDF_begin_document(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_font
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_font _cgo_5cb37de88943_Cfunc__PDF_begin_font
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_font byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_font = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_font)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_font
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_font _cgo_0d5f714d6325_Cfunc__PDF_begin_font
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_font byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_font = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_font)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_font(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double, p7 _Ctype_double, p8 _Ctype_double, p9 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_font, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_font, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -286,14 +272,14 @@ func _Cfunc__PDF_begin_font(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_glyph
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_glyph _cgo_5cb37de88943_Cfunc__PDF_begin_glyph
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_glyph byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_glyph = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_glyph)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_glyph
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_glyph _cgo_0d5f714d6325_Cfunc__PDF_begin_glyph
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_glyph byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_glyph = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_glyph)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_glyph(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_glyph, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_glyph, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -305,14 +291,14 @@ func _Cfunc__PDF_begin_glyph(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_item
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_item _cgo_5cb37de88943_Cfunc__PDF_begin_item
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_item byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_item = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_item)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_item
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_item _cgo_0d5f714d6325_Cfunc__PDF_begin_item
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_item byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_item = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_item)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_item(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_item, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_item, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -320,28 +306,28 @@ func _Cfunc__PDF_begin_item(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_layer
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_layer _cgo_5cb37de88943_Cfunc__PDF_begin_layer
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_layer byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_layer = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_layer)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_layer
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_layer _cgo_0d5f714d6325_Cfunc__PDF_begin_layer
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_layer byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_layer = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_layer)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_layer(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_layer, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_layer, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_page_ext
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_page_ext _cgo_5cb37de88943_Cfunc__PDF_begin_page_ext
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_page_ext byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_page_ext = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_page_ext)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext _cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_page_ext(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_page_ext, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_page_ext, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -350,14 +336,14 @@ func _Cfunc__PDF_begin_page_ext(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _C
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_pattern
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_pattern _cgo_5cb37de88943_Cfunc__PDF_begin_pattern
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_pattern byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_pattern = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_pattern)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_pattern
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_pattern _cgo_0d5f714d6325_Cfunc__PDF_begin_pattern
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_pattern byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_pattern = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_pattern)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_pattern(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_int) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_pattern, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_pattern, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -368,14 +354,14 @@ func _Cfunc__PDF_begin_pattern(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_begin_template_ext
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_template_ext _cgo_5cb37de88943_Cfunc__PDF_begin_template_ext
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_template_ext byte
-var _cgo_5cb37de88943_Cfunc__PDF_begin_template_ext = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_begin_template_ext)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext _cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext byte
+var _cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_begin_template_ext(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_begin_template_ext, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_begin_template_ext, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -384,14 +370,14 @@ func _Cfunc__PDF_begin_template_ext(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_circle
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_circle _cgo_5cb37de88943_Cfunc__PDF_circle
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_circle byte
-var _cgo_5cb37de88943_Cfunc__PDF_circle = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_circle)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_circle
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_circle _cgo_0d5f714d6325_Cfunc__PDF_circle
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_circle byte
+var _cgo_0d5f714d6325_Cfunc__PDF_circle = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_circle)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_circle(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_circle, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_circle, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -400,14 +386,14 @@ func _Cfunc__PDF_circle(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_circular_arc
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_circular_arc _cgo_5cb37de88943_Cfunc__PDF_circular_arc
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_circular_arc byte
-var _cgo_5cb37de88943_Cfunc__PDF_circular_arc = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_circular_arc)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_circular_arc
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_circular_arc _cgo_0d5f714d6325_Cfunc__PDF_circular_arc
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_circular_arc byte
+var _cgo_0d5f714d6325_Cfunc__PDF_circular_arc = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_circular_arc)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_circular_arc(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_circular_arc, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_circular_arc, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -417,136 +403,136 @@ func _Cfunc__PDF_circular_arc(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_clip
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_clip _cgo_5cb37de88943_Cfunc__PDF_clip
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_clip byte
-var _cgo_5cb37de88943_Cfunc__PDF_clip = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_clip)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_clip
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_clip _cgo_0d5f714d6325_Cfunc__PDF_clip
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_clip byte
+var _cgo_0d5f714d6325_Cfunc__PDF_clip = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_clip)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_clip(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_clip, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_clip, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_close_font
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_font _cgo_5cb37de88943_Cfunc__PDF_close_font
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_font byte
-var _cgo_5cb37de88943_Cfunc__PDF_close_font = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_close_font)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_close_font
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_font _cgo_0d5f714d6325_Cfunc__PDF_close_font
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_font byte
+var _cgo_0d5f714d6325_Cfunc__PDF_close_font = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_font)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_close_font(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_close_font, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_close_font, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_close_graphics
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_graphics _cgo_5cb37de88943_Cfunc__PDF_close_graphics
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_graphics byte
-var _cgo_5cb37de88943_Cfunc__PDF_close_graphics = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_close_graphics)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_close_graphics
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_graphics _cgo_0d5f714d6325_Cfunc__PDF_close_graphics
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_graphics byte
+var _cgo_0d5f714d6325_Cfunc__PDF_close_graphics = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_graphics)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_close_graphics(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_close_graphics, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_close_graphics, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_close_image
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_image _cgo_5cb37de88943_Cfunc__PDF_close_image
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_image byte
-var _cgo_5cb37de88943_Cfunc__PDF_close_image = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_close_image)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_close_image
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_image _cgo_0d5f714d6325_Cfunc__PDF_close_image
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_image byte
+var _cgo_0d5f714d6325_Cfunc__PDF_close_image = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_image)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_close_image(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_close_image, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_close_image, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_close_pdi_document
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_pdi_document _cgo_5cb37de88943_Cfunc__PDF_close_pdi_document
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_pdi_document byte
-var _cgo_5cb37de88943_Cfunc__PDF_close_pdi_document = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_close_pdi_document)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document _cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document byte
+var _cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_close_pdi_document(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_close_pdi_document, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_close_pdi_document, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_close_pdi_page
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_pdi_page _cgo_5cb37de88943_Cfunc__PDF_close_pdi_page
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_close_pdi_page byte
-var _cgo_5cb37de88943_Cfunc__PDF_close_pdi_page = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_close_pdi_page)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page _cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page byte
+var _cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_close_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_close_pdi_page, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_close_pdi_page, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_closepath
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath _cgo_5cb37de88943_Cfunc__PDF_closepath
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath byte
-var _cgo_5cb37de88943_Cfunc__PDF_closepath = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_closepath
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath _cgo_0d5f714d6325_Cfunc__PDF_closepath
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath byte
+var _cgo_0d5f714d6325_Cfunc__PDF_closepath = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_closepath(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_closepath, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_closepath, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke _cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke byte
-var _cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke _cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke byte
+var _cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_closepath_fill_stroke(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_closepath_fill_stroke, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_closepath_stroke
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath_stroke _cgo_5cb37de88943_Cfunc__PDF_closepath_stroke
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath_stroke byte
-var _cgo_5cb37de88943_Cfunc__PDF_closepath_stroke = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_closepath_stroke)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke _cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke byte
+var _cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_closepath_stroke(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_closepath_stroke, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_closepath_stroke, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_concat
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_concat _cgo_5cb37de88943_Cfunc__PDF_concat
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_concat byte
-var _cgo_5cb37de88943_Cfunc__PDF_concat = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_concat)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_concat
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_concat _cgo_0d5f714d6325_Cfunc__PDF_concat
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_concat byte
+var _cgo_0d5f714d6325_Cfunc__PDF_concat = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_concat)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_concat(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_concat, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_concat, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -558,28 +544,28 @@ func _Cfunc__PDF_concat(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_continue_text
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_continue_text _cgo_5cb37de88943_Cfunc__PDF_continue_text
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_continue_text byte
-var _cgo_5cb37de88943_Cfunc__PDF_continue_text = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_continue_text)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_continue_text
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_continue_text _cgo_0d5f714d6325_Cfunc__PDF_continue_text
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_continue_text byte
+var _cgo_0d5f714d6325_Cfunc__PDF_continue_text = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_continue_text)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_continue_text(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_continue_text, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_continue_text, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_3dview
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_3dview _cgo_5cb37de88943_Cfunc__PDF_create_3dview
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_3dview byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_3dview = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_3dview)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_3dview
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_3dview _cgo_0d5f714d6325_Cfunc__PDF_create_3dview
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_3dview byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_3dview = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_3dview)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_3dview(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_3dview, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_3dview, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -588,14 +574,14 @@ func _Cfunc__PDF_create_3dview(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_action
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_action _cgo_5cb37de88943_Cfunc__PDF_create_action
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_action byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_action = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_action)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_action
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_action _cgo_0d5f714d6325_Cfunc__PDF_create_action
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_action byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_action = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_action)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_action(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_action, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_action, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -603,14 +589,14 @@ func _Cfunc__PDF_create_action(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_annotation
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_annotation _cgo_5cb37de88943_Cfunc__PDF_create_annotation
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_annotation byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_annotation = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_annotation)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_annotation
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_annotation _cgo_0d5f714d6325_Cfunc__PDF_create_annotation
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_annotation byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_annotation = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_annotation)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_annotation(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 *_Ctype_char, p6 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_annotation, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_annotation, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -622,14 +608,14 @@ func _Cfunc__PDF_create_annotation(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_bookmark
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_bookmark _cgo_5cb37de88943_Cfunc__PDF_create_bookmark
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_bookmark byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_bookmark = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_bookmark)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_bookmark
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_bookmark _cgo_0d5f714d6325_Cfunc__PDF_create_bookmark
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_bookmark byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_bookmark = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_bookmark)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_bookmark(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_bookmark, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_bookmark, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -638,14 +624,14 @@ func _Cfunc__PDF_create_bookmark(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _C
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_field
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_field _cgo_5cb37de88943_Cfunc__PDF_create_field
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_field byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_field = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_field)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_field
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_field _cgo_0d5f714d6325_Cfunc__PDF_create_field
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_field byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_field = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_field)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_field(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 *_Ctype_char, p6 _Ctype_int, p7 *_Ctype_char, p8 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_field, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_field, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -659,14 +645,14 @@ func _Cfunc__PDF_create_field(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup _cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup _cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_fieldgroup(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_fieldgroup, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -675,28 +661,28 @@ func _Cfunc__PDF_create_fieldgroup(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_gstate
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_gstate _cgo_5cb37de88943_Cfunc__PDF_create_gstate
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_gstate byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_gstate = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_gstate)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_gstate
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_gstate _cgo_0d5f714d6325_Cfunc__PDF_create_gstate
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_gstate byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_gstate = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_gstate)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_gstate(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_gstate, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_gstate, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_pvf
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_pvf _cgo_5cb37de88943_Cfunc__PDF_create_pvf
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_pvf byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_pvf = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_pvf)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_pvf
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_pvf _cgo_0d5f714d6325_Cfunc__PDF_create_pvf
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_pvf byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_pvf = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_pvf)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_pvf(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 unsafe.Pointer, p4 _Ctype_size_t, p5 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_pvf, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_pvf, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -707,14 +693,14 @@ func _Cfunc__PDF_create_pvf(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_create_textflow
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_textflow _cgo_5cb37de88943_Cfunc__PDF_create_textflow
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_create_textflow byte
-var _cgo_5cb37de88943_Cfunc__PDF_create_textflow = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_create_textflow)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_create_textflow
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_textflow _cgo_0d5f714d6325_Cfunc__PDF_create_textflow
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_textflow byte
+var _cgo_0d5f714d6325_Cfunc__PDF_create_textflow = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_create_textflow)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_create_textflow(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_create_textflow, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_create_textflow, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -723,14 +709,14 @@ func _Cfunc__PDF_create_textflow(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _C
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_curveto
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_curveto _cgo_5cb37de88943_Cfunc__PDF_curveto
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_curveto byte
-var _cgo_5cb37de88943_Cfunc__PDF_curveto = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_curveto)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_curveto
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_curveto _cgo_0d5f714d6325_Cfunc__PDF_curveto
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_curveto byte
+var _cgo_0d5f714d6325_Cfunc__PDF_curveto = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_curveto)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_curveto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_curveto, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_curveto, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -742,14 +728,14 @@ func _Cfunc__PDF_curveto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_do
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_define_layer
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_define_layer _cgo_5cb37de88943_Cfunc__PDF_define_layer
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_define_layer byte
-var _cgo_5cb37de88943_Cfunc__PDF_define_layer = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_define_layer)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_define_layer
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_define_layer _cgo_0d5f714d6325_Cfunc__PDF_define_layer
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_define_layer byte
+var _cgo_0d5f714d6325_Cfunc__PDF_define_layer = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_define_layer)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_define_layer(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_define_layer, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_define_layer, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -758,41 +744,41 @@ func _Cfunc__PDF_define_layer(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_delete
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete _cgo_5cb37de88943_Cfunc__PDF_delete
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete byte
-var _cgo_5cb37de88943_Cfunc__PDF_delete = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_delete)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_delete
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete _cgo_0d5f714d6325_Cfunc__PDF_delete
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete byte
+var _cgo_0d5f714d6325_Cfunc__PDF_delete = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_delete(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_delete, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_delete, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_delete_path
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_path _cgo_5cb37de88943_Cfunc__PDF_delete_path
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_path byte
-var _cgo_5cb37de88943_Cfunc__PDF_delete_path = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_path)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_delete_path
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_path _cgo_0d5f714d6325_Cfunc__PDF_delete_path
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_path byte
+var _cgo_0d5f714d6325_Cfunc__PDF_delete_path = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_path)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_delete_path(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_delete_path, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_delete_path, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_delete_pvf
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_pvf _cgo_5cb37de88943_Cfunc__PDF_delete_pvf
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_pvf byte
-var _cgo_5cb37de88943_Cfunc__PDF_delete_pvf = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_pvf)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_delete_pvf
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_pvf _cgo_0d5f714d6325_Cfunc__PDF_delete_pvf
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_pvf byte
+var _cgo_0d5f714d6325_Cfunc__PDF_delete_pvf = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_pvf)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_delete_pvf(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_delete_pvf, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_delete_pvf, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -800,14 +786,14 @@ func _Cfunc__PDF_delete_pvf(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_delete_table
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_table _cgo_5cb37de88943_Cfunc__PDF_delete_table
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_table byte
-var _cgo_5cb37de88943_Cfunc__PDF_delete_table = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_table)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_delete_table
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_table _cgo_0d5f714d6325_Cfunc__PDF_delete_table
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_table byte
+var _cgo_0d5f714d6325_Cfunc__PDF_delete_table = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_table)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_delete_table(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_delete_table, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_delete_table, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -815,28 +801,28 @@ func _Cfunc__PDF_delete_table(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_delete_textflow
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_textflow _cgo_5cb37de88943_Cfunc__PDF_delete_textflow
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_textflow byte
-var _cgo_5cb37de88943_Cfunc__PDF_delete_textflow = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_delete_textflow)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_delete_textflow
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_textflow _cgo_0d5f714d6325_Cfunc__PDF_delete_textflow
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_textflow byte
+var _cgo_0d5f714d6325_Cfunc__PDF_delete_textflow = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_delete_textflow)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_delete_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_delete_textflow, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_delete_textflow, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_draw_path
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_draw_path _cgo_5cb37de88943_Cfunc__PDF_draw_path
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_draw_path byte
-var _cgo_5cb37de88943_Cfunc__PDF_draw_path = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_draw_path)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_draw_path
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_draw_path _cgo_0d5f714d6325_Cfunc__PDF_draw_path
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_draw_path byte
+var _cgo_0d5f714d6325_Cfunc__PDF_draw_path = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_draw_path)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_draw_path(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_draw_path, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_draw_path, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -846,14 +832,14 @@ func _Cfunc__PDF_draw_path(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_ellipse
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_ellipse _cgo_5cb37de88943_Cfunc__PDF_ellipse
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_ellipse byte
-var _cgo_5cb37de88943_Cfunc__PDF_ellipse = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_ellipse)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_ellipse
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_ellipse _cgo_0d5f714d6325_Cfunc__PDF_ellipse
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_ellipse byte
+var _cgo_0d5f714d6325_Cfunc__PDF_ellipse = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_ellipse)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_ellipse(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_ellipse, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_ellipse, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -863,121 +849,121 @@ func _Cfunc__PDF_ellipse(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_do
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_document
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_document _cgo_5cb37de88943_Cfunc__PDF_end_document
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_document byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_document = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_document)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_document
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_document _cgo_0d5f714d6325_Cfunc__PDF_end_document
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_document byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_document = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_document)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_document(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_document, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_document, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_font
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_font _cgo_5cb37de88943_Cfunc__PDF_end_font
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_font byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_font = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_font)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_font
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_font _cgo_0d5f714d6325_Cfunc__PDF_end_font
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_font byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_font = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_font)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_font(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_font, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_font, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_glyph
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_glyph _cgo_5cb37de88943_Cfunc__PDF_end_glyph
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_glyph byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_glyph = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_glyph)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_glyph
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_glyph _cgo_0d5f714d6325_Cfunc__PDF_end_glyph
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_glyph byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_glyph = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_glyph)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_glyph(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_glyph, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_glyph, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_item
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_item _cgo_5cb37de88943_Cfunc__PDF_end_item
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_item byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_item = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_item)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_item
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_item _cgo_0d5f714d6325_Cfunc__PDF_end_item
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_item byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_item = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_item)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_item(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_item, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_item, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_layer
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_layer _cgo_5cb37de88943_Cfunc__PDF_end_layer
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_layer byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_layer = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_layer)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_layer
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_layer _cgo_0d5f714d6325_Cfunc__PDF_end_layer
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_layer byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_layer = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_layer)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_layer(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_layer, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_layer, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_mc
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_mc _cgo_5cb37de88943_Cfunc__PDF_end_mc
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_mc byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_mc = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_mc)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_mc
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_mc _cgo_0d5f714d6325_Cfunc__PDF_end_mc
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_mc byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_mc = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_mc)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_mc(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_mc, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_mc, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_page_ext
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_page_ext _cgo_5cb37de88943_Cfunc__PDF_end_page_ext
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_page_ext byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_page_ext = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_page_ext)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_page_ext
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_page_ext _cgo_0d5f714d6325_Cfunc__PDF_end_page_ext
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_page_ext byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_page_ext = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_page_ext)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_page_ext(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_page_ext, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_page_ext, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_pattern
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_pattern _cgo_5cb37de88943_Cfunc__PDF_end_pattern
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_pattern byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_pattern = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_pattern)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_pattern
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_pattern _cgo_0d5f714d6325_Cfunc__PDF_end_pattern
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_pattern byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_pattern = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_pattern)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_pattern(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_pattern, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_pattern, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_end_template_ext
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_template_ext _cgo_5cb37de88943_Cfunc__PDF_end_template_ext
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_end_template_ext byte
-var _cgo_5cb37de88943_Cfunc__PDF_end_template_ext = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_end_template_ext)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_end_template_ext
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_template_ext _cgo_0d5f714d6325_Cfunc__PDF_end_template_ext
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_template_ext byte
+var _cgo_0d5f714d6325_Cfunc__PDF_end_template_ext = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_end_template_ext)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_end_template_ext(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_end_template_ext, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_end_template_ext, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -985,40 +971,40 @@ func _Cfunc__PDF_end_template_ext(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_endpath
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_endpath _cgo_5cb37de88943_Cfunc__PDF_endpath
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_endpath byte
-var _cgo_5cb37de88943_Cfunc__PDF_endpath = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_endpath)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_endpath
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_endpath _cgo_0d5f714d6325_Cfunc__PDF_endpath
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_endpath byte
+var _cgo_0d5f714d6325_Cfunc__PDF_endpath = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_endpath)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_endpath(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_endpath, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_endpath, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fill
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill _cgo_5cb37de88943_Cfunc__PDF_fill
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill byte
-var _cgo_5cb37de88943_Cfunc__PDF_fill = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fill)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fill
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill _cgo_0d5f714d6325_Cfunc__PDF_fill
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fill = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fill(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fill, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fill, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fill_imageblock
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_imageblock _cgo_5cb37de88943_Cfunc__PDF_fill_imageblock
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_imageblock byte
-var _cgo_5cb37de88943_Cfunc__PDF_fill_imageblock = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_imageblock)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock _cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fill_imageblock(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 _Ctype_int, p4 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fill_imageblock, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fill_imageblock, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1028,14 +1014,14 @@ func _Cfunc__PDF_fill_imageblock(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock _cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock byte
-var _cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock _cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fill_pdfblock(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 _Ctype_int, p4 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fill_pdfblock, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1045,27 +1031,27 @@ func _Cfunc__PDF_fill_pdfblock(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fill_stroke
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_stroke _cgo_5cb37de88943_Cfunc__PDF_fill_stroke
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_stroke byte
-var _cgo_5cb37de88943_Cfunc__PDF_fill_stroke = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_stroke)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fill_stroke
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_stroke _cgo_0d5f714d6325_Cfunc__PDF_fill_stroke
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_stroke byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fill_stroke = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_stroke)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fill_stroke(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fill_stroke, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fill_stroke, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fill_textblock
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_textblock _cgo_5cb37de88943_Cfunc__PDF_fill_textblock
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_textblock byte
-var _cgo_5cb37de88943_Cfunc__PDF_fill_textblock = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fill_textblock)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fill_textblock
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_textblock _cgo_0d5f714d6325_Cfunc__PDF_fill_textblock
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_textblock byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fill_textblock = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fill_textblock)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fill_textblock(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 *_Ctype_char, p4 _Ctype_int, p5 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fill_textblock, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fill_textblock, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1076,14 +1062,14 @@ func _Cfunc__PDF_fill_textblock(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fit_graphics
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_graphics _cgo_5cb37de88943_Cfunc__PDF_fit_graphics
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_graphics byte
-var _cgo_5cb37de88943_Cfunc__PDF_fit_graphics = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_graphics)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fit_graphics
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_graphics _cgo_0d5f714d6325_Cfunc__PDF_fit_graphics
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_graphics byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fit_graphics = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_graphics)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fit_graphics(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fit_graphics, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fit_graphics, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1093,14 +1079,14 @@ func _Cfunc__PDF_fit_graphics(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fit_image
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_image _cgo_5cb37de88943_Cfunc__PDF_fit_image
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_image byte
-var _cgo_5cb37de88943_Cfunc__PDF_fit_image = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_image)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fit_image
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_image _cgo_0d5f714d6325_Cfunc__PDF_fit_image
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_image byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fit_image = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_image)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fit_image(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fit_image, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fit_image, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1110,14 +1096,14 @@ func _Cfunc__PDF_fit_image(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page _cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page byte
-var _cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page _cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fit_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fit_pdi_page, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1127,14 +1113,14 @@ func _Cfunc__PDF_fit_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fit_table
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_table _cgo_5cb37de88943_Cfunc__PDF_fit_table
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_table byte
-var _cgo_5cb37de88943_Cfunc__PDF_fit_table = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_table)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fit_table
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_table _cgo_0d5f714d6325_Cfunc__PDF_fit_table
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_table byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fit_table = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_table)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fit_table(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 *_Ctype_char) (r1 *_Ctype_char) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fit_table, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fit_table, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1146,14 +1132,14 @@ func _Cfunc__PDF_fit_table(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fit_textflow
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_textflow _cgo_5cb37de88943_Cfunc__PDF_fit_textflow
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_textflow byte
-var _cgo_5cb37de88943_Cfunc__PDF_fit_textflow = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_textflow)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fit_textflow
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_textflow _cgo_0d5f714d6325_Cfunc__PDF_fit_textflow
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_textflow byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fit_textflow = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_textflow)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fit_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 *_Ctype_char) (r1 *_Ctype_char) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fit_textflow, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fit_textflow, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1165,14 +1151,14 @@ func _Cfunc__PDF_fit_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_fit_textline
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_textline _cgo_5cb37de88943_Cfunc__PDF_fit_textline
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_textline byte
-var _cgo_5cb37de88943_Cfunc__PDF_fit_textline = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_fit_textline)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_fit_textline
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_textline _cgo_0d5f714d6325_Cfunc__PDF_fit_textline
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_textline byte
+var _cgo_0d5f714d6325_Cfunc__PDF_fit_textline = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_fit_textline)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_fit_textline(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 _Ctype_double, p4 _Ctype_double, p5 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_fit_textline, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_fit_textline, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1183,40 +1169,40 @@ func _Cfunc__PDF_fit_textline(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_get_errmsg
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_errmsg _cgo_5cb37de88943_Cfunc__PDF_get_errmsg
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_errmsg byte
-var _cgo_5cb37de88943_Cfunc__PDF_get_errmsg = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_get_errmsg)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_get_errmsg
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_errmsg _cgo_0d5f714d6325_Cfunc__PDF_get_errmsg
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_errmsg byte
+var _cgo_0d5f714d6325_Cfunc__PDF_get_errmsg = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_errmsg)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_get_errmsg(p0 *_Ctype_struct_PDF_s) (r1 *_Ctype_char) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_get_errmsg, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_get_errmsg, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_get_errnum
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_errnum _cgo_5cb37de88943_Cfunc__PDF_get_errnum
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_errnum byte
-var _cgo_5cb37de88943_Cfunc__PDF_get_errnum = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_get_errnum)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_get_errnum
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_errnum _cgo_0d5f714d6325_Cfunc__PDF_get_errnum
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_errnum byte
+var _cgo_0d5f714d6325_Cfunc__PDF_get_errnum = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_errnum)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_get_errnum(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_get_errnum, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_get_errnum, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_get_parameter
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_parameter _cgo_5cb37de88943_Cfunc__PDF_get_parameter
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_parameter byte
-var _cgo_5cb37de88943_Cfunc__PDF_get_parameter = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_get_parameter)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_get_parameter
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_parameter _cgo_0d5f714d6325_Cfunc__PDF_get_parameter
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_parameter byte
+var _cgo_0d5f714d6325_Cfunc__PDF_get_parameter = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_parameter)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_get_parameter(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_double) (r1 *_Ctype_char) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_get_parameter, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_get_parameter, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1224,14 +1210,14 @@ func _Cfunc__PDF_get_parameter(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_get_value
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_value _cgo_5cb37de88943_Cfunc__PDF_get_value
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_get_value byte
-var _cgo_5cb37de88943_Cfunc__PDF_get_value = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_get_value)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_get_value
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_value _cgo_0d5f714d6325_Cfunc__PDF_get_value
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_value byte
+var _cgo_0d5f714d6325_Cfunc__PDF_get_value = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_get_value)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_get_value(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_double) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_get_value, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_get_value, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1239,14 +1225,14 @@ func _Cfunc__PDF_get_value(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_d
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_font
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_font _cgo_5cb37de88943_Cfunc__PDF_info_font
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_font byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_font = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_font)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_font
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_font _cgo_0d5f714d6325_Cfunc__PDF_info_font
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_font byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_font = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_font)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_font(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_font, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_font, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1255,14 +1241,14 @@ func _Cfunc__PDF_info_font(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_ch
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_graphics
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_graphics _cgo_5cb37de88943_Cfunc__PDF_info_graphics
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_graphics byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_graphics = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_graphics)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_graphics
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_graphics _cgo_0d5f714d6325_Cfunc__PDF_info_graphics
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_graphics byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_graphics = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_graphics)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_graphics(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_graphics, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_graphics, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1271,14 +1257,14 @@ func _Cfunc__PDF_info_graphics(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_image
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_image _cgo_5cb37de88943_Cfunc__PDF_info_image
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_image byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_image = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_image)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_image
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_image _cgo_0d5f714d6325_Cfunc__PDF_info_image
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_image byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_image = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_image)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_image(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_image, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_image, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1287,14 +1273,14 @@ func _Cfunc__PDF_info_image(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_c
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_matchbox
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_matchbox _cgo_5cb37de88943_Cfunc__PDF_info_matchbox
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_matchbox byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_matchbox = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_matchbox)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_matchbox
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_matchbox _cgo_0d5f714d6325_Cfunc__PDF_info_matchbox
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_matchbox byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_matchbox = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_matchbox)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_matchbox(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 _Ctype_int, p4 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_matchbox, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_matchbox, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1304,14 +1290,14 @@ func _Cfunc__PDF_info_matchbox(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_path
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_path _cgo_5cb37de88943_Cfunc__PDF_info_path
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_path byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_path = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_path)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_path
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_path _cgo_0d5f714d6325_Cfunc__PDF_info_path
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_path byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_path = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_path)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_path(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_path, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_path, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1320,14 +1306,14 @@ func _Cfunc__PDF_info_path(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_ch
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_pdi_page
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_pdi_page _cgo_5cb37de88943_Cfunc__PDF_info_pdi_page
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_pdi_page byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_pdi_page = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_pdi_page)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page _cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char, p3 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_pdi_page, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_pdi_page, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1336,14 +1322,14 @@ func _Cfunc__PDF_info_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_table
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_table _cgo_5cb37de88943_Cfunc__PDF_info_table
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_table byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_table = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_table)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_table
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_table _cgo_0d5f714d6325_Cfunc__PDF_info_table
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_table byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_table = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_table)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_table(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_table, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_table, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1351,14 +1337,14 @@ func _Cfunc__PDF_info_table(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_c
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_textflow
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_textflow _cgo_5cb37de88943_Cfunc__PDF_info_textflow
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_textflow byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_textflow = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_textflow)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_textflow
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_textflow _cgo_0d5f714d6325_Cfunc__PDF_info_textflow
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_textflow byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_textflow = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_textflow)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_textflow, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_textflow, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1366,14 +1352,14 @@ func _Cfunc__PDF_info_textflow(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctyp
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_info_textline
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_textline _cgo_5cb37de88943_Cfunc__PDF_info_textline
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_info_textline byte
-var _cgo_5cb37de88943_Cfunc__PDF_info_textline = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_info_textline)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_info_textline
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_textline _cgo_0d5f714d6325_Cfunc__PDF_info_textline
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_textline byte
+var _cgo_0d5f714d6325_Cfunc__PDF_info_textline = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_info_textline)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_info_textline(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char, p4 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_info_textline, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_info_textline, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1383,27 +1369,27 @@ func _Cfunc__PDF_info_textline(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_initgraphics
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_initgraphics _cgo_5cb37de88943_Cfunc__PDF_initgraphics
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_initgraphics byte
-var _cgo_5cb37de88943_Cfunc__PDF_initgraphics = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_initgraphics)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_initgraphics
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_initgraphics _cgo_0d5f714d6325_Cfunc__PDF_initgraphics
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_initgraphics byte
+var _cgo_0d5f714d6325_Cfunc__PDF_initgraphics = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_initgraphics)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_initgraphics(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_initgraphics, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_initgraphics, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_lineto
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_lineto _cgo_5cb37de88943_Cfunc__PDF_lineto
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_lineto byte
-var _cgo_5cb37de88943_Cfunc__PDF_lineto = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_lineto)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_lineto
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_lineto _cgo_0d5f714d6325_Cfunc__PDF_lineto
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_lineto byte
+var _cgo_0d5f714d6325_Cfunc__PDF_lineto = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_lineto)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_lineto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_lineto, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_lineto, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1411,14 +1397,14 @@ func _Cfunc__PDF_lineto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_load_3ddata
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_3ddata _cgo_5cb37de88943_Cfunc__PDF_load_3ddata
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_3ddata byte
-var _cgo_5cb37de88943_Cfunc__PDF_load_3ddata = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_load_3ddata)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_load_3ddata
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_3ddata _cgo_0d5f714d6325_Cfunc__PDF_load_3ddata
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_3ddata byte
+var _cgo_0d5f714d6325_Cfunc__PDF_load_3ddata = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_3ddata)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_load_3ddata(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_load_3ddata, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_load_3ddata, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1427,14 +1413,14 @@ func _Cfunc__PDF_load_3ddata(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_load_font
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_font _cgo_5cb37de88943_Cfunc__PDF_load_font
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_font byte
-var _cgo_5cb37de88943_Cfunc__PDF_load_font = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_load_font)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_load_font
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_font _cgo_0d5f714d6325_Cfunc__PDF_load_font
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_font byte
+var _cgo_0d5f714d6325_Cfunc__PDF_load_font = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_font)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_load_font(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char, p4 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_load_font, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_load_font, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1444,14 +1430,14 @@ func _Cfunc__PDF_load_font(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_i
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_load_graphics
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_graphics _cgo_5cb37de88943_Cfunc__PDF_load_graphics
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_graphics byte
-var _cgo_5cb37de88943_Cfunc__PDF_load_graphics = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_load_graphics)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_load_graphics
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_graphics _cgo_0d5f714d6325_Cfunc__PDF_load_graphics
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_graphics byte
+var _cgo_0d5f714d6325_Cfunc__PDF_load_graphics = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_graphics)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_load_graphics(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char, p3 _Ctype_int, p4 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_load_graphics, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_load_graphics, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1461,14 +1447,14 @@ func _Cfunc__PDF_load_graphics(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_load_iccprofile
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_iccprofile _cgo_5cb37de88943_Cfunc__PDF_load_iccprofile
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_iccprofile byte
-var _cgo_5cb37de88943_Cfunc__PDF_load_iccprofile = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_load_iccprofile)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile _cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile byte
+var _cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_load_iccprofile(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_load_iccprofile, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_load_iccprofile, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1477,14 +1463,14 @@ func _Cfunc__PDF_load_iccprofile(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _C
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_load_image
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_image _cgo_5cb37de88943_Cfunc__PDF_load_image
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_load_image byte
-var _cgo_5cb37de88943_Cfunc__PDF_load_image = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_load_image)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_load_image
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_image _cgo_0d5f714d6325_Cfunc__PDF_load_image
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_image byte
+var _cgo_0d5f714d6325_Cfunc__PDF_load_image = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_load_image)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_load_image(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char, p3 _Ctype_int, p4 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_load_image, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_load_image, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1494,14 +1480,14 @@ func _Cfunc__PDF_load_image(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_makespotcolor
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_makespotcolor _cgo_5cb37de88943_Cfunc__PDF_makespotcolor
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_makespotcolor byte
-var _cgo_5cb37de88943_Cfunc__PDF_makespotcolor = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_makespotcolor)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_makespotcolor
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_makespotcolor _cgo_0d5f714d6325_Cfunc__PDF_makespotcolor
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_makespotcolor byte
+var _cgo_0d5f714d6325_Cfunc__PDF_makespotcolor = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_makespotcolor)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_makespotcolor(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_makespotcolor, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_makespotcolor, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1509,14 +1495,14 @@ func _Cfunc__PDF_makespotcolor(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_mc_point
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_mc_point _cgo_5cb37de88943_Cfunc__PDF_mc_point
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_mc_point byte
-var _cgo_5cb37de88943_Cfunc__PDF_mc_point = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_mc_point)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_mc_point
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_mc_point _cgo_0d5f714d6325_Cfunc__PDF_mc_point
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_mc_point byte
+var _cgo_0d5f714d6325_Cfunc__PDF_mc_point = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_mc_point)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_mc_point(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_mc_point, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_mc_point, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1524,14 +1510,14 @@ func _Cfunc__PDF_mc_point(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_c
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_moveto
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_moveto _cgo_5cb37de88943_Cfunc__PDF_moveto
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_moveto byte
-var _cgo_5cb37de88943_Cfunc__PDF_moveto = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_moveto)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_moveto
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_moveto _cgo_0d5f714d6325_Cfunc__PDF_moveto
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_moveto byte
+var _cgo_0d5f714d6325_Cfunc__PDF_moveto = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_moveto)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_moveto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_moveto, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_moveto, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1539,14 +1525,14 @@ func _Cfunc__PDF_moveto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_open_pdi_document
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_open_pdi_document _cgo_5cb37de88943_Cfunc__PDF_open_pdi_document
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_open_pdi_document byte
-var _cgo_5cb37de88943_Cfunc__PDF_open_pdi_document = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_open_pdi_document)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document _cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document byte
+var _cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_open_pdi_document(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_open_pdi_document, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_open_pdi_document, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1555,14 +1541,14 @@ func _Cfunc__PDF_open_pdi_document(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_open_pdi_page
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_open_pdi_page _cgo_5cb37de88943_Cfunc__PDF_open_pdi_page
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_open_pdi_page byte
-var _cgo_5cb37de88943_Cfunc__PDF_open_pdi_page = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_open_pdi_page)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page _cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page byte
+var _cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_open_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_open_pdi_page, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_open_pdi_page, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1571,14 +1557,14 @@ func _Cfunc__PDF_open_pdi_page(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_pcos_get_number
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_pcos_get_number _cgo_5cb37de88943_Cfunc__PDF_pcos_get_number
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_pcos_get_number byte
-var _cgo_5cb37de88943_Cfunc__PDF_pcos_get_number = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_pcos_get_number)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number _cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number byte
+var _cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_pcos_get_number(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_pcos_get_number, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_pcos_get_number, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1586,14 +1572,14 @@ func _Cfunc__PDF_pcos_get_number(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_pcos_get_string
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_pcos_get_string _cgo_5cb37de88943_Cfunc__PDF_pcos_get_string
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_pcos_get_string byte
-var _cgo_5cb37de88943_Cfunc__PDF_pcos_get_string = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_pcos_get_string)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string _cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string byte
+var _cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_pcos_get_string(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 *_Ctype_char) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_pcos_get_string, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_pcos_get_string, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1601,14 +1587,14 @@ func _Cfunc__PDF_pcos_get_string(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_poca_delete
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_delete _cgo_5cb37de88943_Cfunc__PDF_poca_delete
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_delete byte
-var _cgo_5cb37de88943_Cfunc__PDF_poca_delete = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_delete)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_poca_delete
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_delete _cgo_0d5f714d6325_Cfunc__PDF_poca_delete
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_delete byte
+var _cgo_0d5f714d6325_Cfunc__PDF_poca_delete = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_delete)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_poca_delete(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_poca_delete, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_poca_delete, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1616,14 +1602,14 @@ func _Cfunc__PDF_poca_delete(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_poca_insert
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_insert _cgo_5cb37de88943_Cfunc__PDF_poca_insert
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_insert byte
-var _cgo_5cb37de88943_Cfunc__PDF_poca_insert = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_insert)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_poca_insert
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_insert _cgo_0d5f714d6325_Cfunc__PDF_poca_insert
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_insert byte
+var _cgo_0d5f714d6325_Cfunc__PDF_poca_insert = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_insert)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_poca_insert(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_poca_insert, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_poca_insert, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1631,28 +1617,28 @@ func _Cfunc__PDF_poca_insert(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_poca_new
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_new _cgo_5cb37de88943_Cfunc__PDF_poca_new
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_new byte
-var _cgo_5cb37de88943_Cfunc__PDF_poca_new = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_new)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_poca_new
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_new _cgo_0d5f714d6325_Cfunc__PDF_poca_new
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_new byte
+var _cgo_0d5f714d6325_Cfunc__PDF_poca_new = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_new)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_poca_new(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_poca_new, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_poca_new, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_poca_remove
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_remove _cgo_5cb37de88943_Cfunc__PDF_poca_remove
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_remove byte
-var _cgo_5cb37de88943_Cfunc__PDF_poca_remove = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_poca_remove)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_poca_remove
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_remove _cgo_0d5f714d6325_Cfunc__PDF_poca_remove
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_remove byte
+var _cgo_0d5f714d6325_Cfunc__PDF_poca_remove = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_poca_remove)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_poca_remove(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_poca_remove, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_poca_remove, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1660,14 +1646,14 @@ func _Cfunc__PDF_poca_remove(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_process_pdi
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_process_pdi _cgo_5cb37de88943_Cfunc__PDF_process_pdi
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_process_pdi byte
-var _cgo_5cb37de88943_Cfunc__PDF_process_pdi = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_process_pdi)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_process_pdi
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_process_pdi _cgo_0d5f714d6325_Cfunc__PDF_process_pdi
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_process_pdi byte
+var _cgo_0d5f714d6325_Cfunc__PDF_process_pdi = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_process_pdi)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_process_pdi(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_int, p3 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_process_pdi, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_process_pdi, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1676,14 +1662,14 @@ func _Cfunc__PDF_process_pdi(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_i
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_rcurveto
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_rcurveto _cgo_5cb37de88943_Cfunc__PDF_rcurveto
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_rcurveto byte
-var _cgo_5cb37de88943_Cfunc__PDF_rcurveto = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_rcurveto)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_rcurveto
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_rcurveto _cgo_0d5f714d6325_Cfunc__PDF_rcurveto
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_rcurveto byte
+var _cgo_0d5f714d6325_Cfunc__PDF_rcurveto = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_rcurveto)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_rcurveto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_rcurveto, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_rcurveto, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1695,14 +1681,14 @@ func _Cfunc__PDF_rcurveto(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_d
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_rect
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_rect _cgo_5cb37de88943_Cfunc__PDF_rect
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_rect byte
-var _cgo_5cb37de88943_Cfunc__PDF_rect = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_rect)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_rect
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_rect _cgo_0d5f714d6325_Cfunc__PDF_rect
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_rect byte
+var _cgo_0d5f714d6325_Cfunc__PDF_rect = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_rect)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_rect(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_rect, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_rect, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1712,68 +1698,68 @@ func _Cfunc__PDF_rect(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_doubl
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_restore
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_restore _cgo_5cb37de88943_Cfunc__PDF_restore
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_restore byte
-var _cgo_5cb37de88943_Cfunc__PDF_restore = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_restore)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_restore
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_restore _cgo_0d5f714d6325_Cfunc__PDF_restore
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_restore byte
+var _cgo_0d5f714d6325_Cfunc__PDF_restore = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_restore)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_restore(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_restore, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_restore, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_resume_page
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_resume_page _cgo_5cb37de88943_Cfunc__PDF_resume_page
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_resume_page byte
-var _cgo_5cb37de88943_Cfunc__PDF_resume_page = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_resume_page)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_resume_page
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_resume_page _cgo_0d5f714d6325_Cfunc__PDF_resume_page
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_resume_page byte
+var _cgo_0d5f714d6325_Cfunc__PDF_resume_page = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_resume_page)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_resume_page(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_resume_page, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_resume_page, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_rotate
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_rotate _cgo_5cb37de88943_Cfunc__PDF_rotate
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_rotate byte
-var _cgo_5cb37de88943_Cfunc__PDF_rotate = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_rotate)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_rotate
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_rotate _cgo_0d5f714d6325_Cfunc__PDF_rotate
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_rotate byte
+var _cgo_0d5f714d6325_Cfunc__PDF_rotate = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_rotate)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_rotate(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_rotate, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_rotate, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_save
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_save _cgo_5cb37de88943_Cfunc__PDF_save
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_save byte
-var _cgo_5cb37de88943_Cfunc__PDF_save = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_save)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_save
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_save _cgo_0d5f714d6325_Cfunc__PDF_save
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_save byte
+var _cgo_0d5f714d6325_Cfunc__PDF_save = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_save)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_save(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_save, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_save, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_scale
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_scale _cgo_5cb37de88943_Cfunc__PDF_scale
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_scale byte
-var _cgo_5cb37de88943_Cfunc__PDF_scale = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_scale)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_scale
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_scale _cgo_0d5f714d6325_Cfunc__PDF_scale
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_scale byte
+var _cgo_0d5f714d6325_Cfunc__PDF_scale = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_scale)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_scale(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_scale, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_scale, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1781,42 +1767,42 @@ func _Cfunc__PDF_scale(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_doub
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_graphics_option
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_graphics_option _cgo_5cb37de88943_Cfunc__PDF_set_graphics_option
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_graphics_option byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_graphics_option = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_graphics_option)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option _cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_graphics_option(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_graphics_option, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_graphics_option, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_gstate
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_gstate _cgo_5cb37de88943_Cfunc__PDF_set_gstate
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_gstate byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_gstate = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_gstate)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_gstate
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_gstate _cgo_0d5f714d6325_Cfunc__PDF_set_gstate
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_gstate byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_gstate = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_gstate)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_gstate(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_gstate, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_gstate, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_info
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_info _cgo_5cb37de88943_Cfunc__PDF_set_info
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_info byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_info = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_info)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_info
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_info _cgo_0d5f714d6325_Cfunc__PDF_set_info
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_info byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_info = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_info)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_info(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_info, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_info, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1824,14 +1810,14 @@ func _Cfunc__PDF_set_info(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_c
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency _cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency _cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_layer_dependency(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_layer_dependency, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1839,28 +1825,28 @@ func _Cfunc__PDF_set_layer_dependency(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, 
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_option
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_option _cgo_5cb37de88943_Cfunc__PDF_set_option
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_option byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_option = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_option)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_option
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_option _cgo_0d5f714d6325_Cfunc__PDF_set_option
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_option byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_option = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_option)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_option(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_option, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_option, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_parameter
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_parameter _cgo_5cb37de88943_Cfunc__PDF_set_parameter
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_parameter byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_parameter = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_parameter)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_parameter
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_parameter _cgo_0d5f714d6325_Cfunc__PDF_set_parameter
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_parameter byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_parameter = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_parameter)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_parameter(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_parameter, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_parameter, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1868,14 +1854,14 @@ func _Cfunc__PDF_set_parameter(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_text_pos
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_text_pos _cgo_5cb37de88943_Cfunc__PDF_set_text_pos
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_text_pos byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_text_pos = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_text_pos)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_text_pos
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_text_pos _cgo_0d5f714d6325_Cfunc__PDF_set_text_pos
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_text_pos byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_text_pos = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_text_pos)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_text_pos(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_text_pos, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_text_pos, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1883,14 +1869,14 @@ func _Cfunc__PDF_set_text_pos(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Cty
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_set_value
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_value _cgo_5cb37de88943_Cfunc__PDF_set_value
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_set_value byte
-var _cgo_5cb37de88943_Cfunc__PDF_set_value = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_set_value)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_set_value
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_value _cgo_0d5f714d6325_Cfunc__PDF_set_value
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_value byte
+var _cgo_0d5f714d6325_Cfunc__PDF_set_value = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_set_value)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_set_value(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_set_value, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_set_value, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1898,14 +1884,14 @@ func _Cfunc__PDF_set_value(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_d
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setcolor
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setcolor _cgo_5cb37de88943_Cfunc__PDF_setcolor
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setcolor byte
-var _cgo_5cb37de88943_Cfunc__PDF_setcolor = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setcolor)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setcolor
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setcolor _cgo_0d5f714d6325_Cfunc__PDF_setcolor
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setcolor byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setcolor = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setcolor)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setcolor(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_char, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setcolor, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setcolor, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1917,14 +1903,14 @@ func _Cfunc__PDF_setcolor(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 *_Ctype_c
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setdash
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setdash _cgo_5cb37de88943_Cfunc__PDF_setdash
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setdash byte
-var _cgo_5cb37de88943_Cfunc__PDF_setdash = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setdash)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setdash
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setdash _cgo_0d5f714d6325_Cfunc__PDF_setdash
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setdash byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setdash = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setdash)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setdash(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setdash, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setdash, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1932,42 +1918,42 @@ func _Cfunc__PDF_setdash(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_do
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setdashpattern
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setdashpattern _cgo_5cb37de88943_Cfunc__PDF_setdashpattern
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setdashpattern byte
-var _cgo_5cb37de88943_Cfunc__PDF_setdashpattern = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setdashpattern)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setdashpattern
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setdashpattern _cgo_0d5f714d6325_Cfunc__PDF_setdashpattern
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setdashpattern byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setdashpattern = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setdashpattern)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setdashpattern(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setdashpattern, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setdashpattern, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setflat
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setflat _cgo_5cb37de88943_Cfunc__PDF_setflat
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setflat byte
-var _cgo_5cb37de88943_Cfunc__PDF_setflat = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setflat)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setflat
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setflat _cgo_0d5f714d6325_Cfunc__PDF_setflat
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setflat byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setflat = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setflat)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setflat(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setflat, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setflat, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setfont
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setfont _cgo_5cb37de88943_Cfunc__PDF_setfont
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setfont byte
-var _cgo_5cb37de88943_Cfunc__PDF_setfont = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setfont)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setfont
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setfont _cgo_0d5f714d6325_Cfunc__PDF_setfont
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setfont byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setfont = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setfont)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setfont(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setfont, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setfont, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -1975,56 +1961,56 @@ func _Cfunc__PDF_setfont(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 _Ctype_doubl
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setlinecap
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinecap _cgo_5cb37de88943_Cfunc__PDF_setlinecap
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinecap byte
-var _cgo_5cb37de88943_Cfunc__PDF_setlinecap = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinecap)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setlinecap
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinecap _cgo_0d5f714d6325_Cfunc__PDF_setlinecap
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinecap byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setlinecap = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinecap)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setlinecap(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setlinecap, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setlinecap, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setlinejoin
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinejoin _cgo_5cb37de88943_Cfunc__PDF_setlinejoin
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinejoin byte
-var _cgo_5cb37de88943_Cfunc__PDF_setlinejoin = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinejoin)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setlinejoin
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinejoin _cgo_0d5f714d6325_Cfunc__PDF_setlinejoin
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinejoin byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setlinejoin = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinejoin)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setlinejoin(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setlinejoin, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setlinejoin, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setlinewidth
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinewidth _cgo_5cb37de88943_Cfunc__PDF_setlinewidth
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinewidth byte
-var _cgo_5cb37de88943_Cfunc__PDF_setlinewidth = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setlinewidth)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setlinewidth
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinewidth _cgo_0d5f714d6325_Cfunc__PDF_setlinewidth
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinewidth byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setlinewidth = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setlinewidth)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setlinewidth(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setlinewidth, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setlinewidth, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setmatrix
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setmatrix _cgo_5cb37de88943_Cfunc__PDF_setmatrix
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setmatrix byte
-var _cgo_5cb37de88943_Cfunc__PDF_setmatrix = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setmatrix)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setmatrix
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setmatrix _cgo_0d5f714d6325_Cfunc__PDF_setmatrix
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setmatrix byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setmatrix = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setmatrix)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setmatrix(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setmatrix, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setmatrix, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2036,28 +2022,28 @@ func _Cfunc__PDF_setmatrix(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_setmiterlimit
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_setmiterlimit _cgo_5cb37de88943_Cfunc__PDF_setmiterlimit
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_setmiterlimit byte
-var _cgo_5cb37de88943_Cfunc__PDF_setmiterlimit = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_setmiterlimit)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit _cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit byte
+var _cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_setmiterlimit(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_setmiterlimit, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_setmiterlimit, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_shading
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_shading _cgo_5cb37de88943_Cfunc__PDF_shading
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_shading byte
-var _cgo_5cb37de88943_Cfunc__PDF_shading = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_shading)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_shading
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_shading _cgo_0d5f714d6325_Cfunc__PDF_shading
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_shading byte
+var _cgo_0d5f714d6325_Cfunc__PDF_shading = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_shading)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_shading(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_double, p3 _Ctype_double, p4 _Ctype_double, p5 _Ctype_double, p6 _Ctype_double, p7 _Ctype_double, p8 _Ctype_double, p9 _Ctype_double, p10 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_shading, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_shading, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2073,14 +2059,14 @@ func _Cfunc__PDF_shading(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_shading_pattern
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_shading_pattern _cgo_5cb37de88943_Cfunc__PDF_shading_pattern
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_shading_pattern byte
-var _cgo_5cb37de88943_Cfunc__PDF_shading_pattern = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_shading_pattern)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_shading_pattern
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_shading_pattern _cgo_0d5f714d6325_Cfunc__PDF_shading_pattern
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_shading_pattern byte
+var _cgo_0d5f714d6325_Cfunc__PDF_shading_pattern = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_shading_pattern)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_shading_pattern(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ctype_char) (r1 _Ctype_int) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_shading_pattern, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_shading_pattern, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2088,42 +2074,42 @@ func _Cfunc__PDF_shading_pattern(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int, p2 *_Ct
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_shfill
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_shfill _cgo_5cb37de88943_Cfunc__PDF_shfill
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_shfill byte
-var _cgo_5cb37de88943_Cfunc__PDF_shfill = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_shfill)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_shfill
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_shfill _cgo_0d5f714d6325_Cfunc__PDF_shfill
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_shfill byte
+var _cgo_0d5f714d6325_Cfunc__PDF_shfill = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_shfill)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_shfill(p0 *_Ctype_struct_PDF_s, p1 _Ctype_int) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_shfill, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_shfill, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_show
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_show _cgo_5cb37de88943_Cfunc__PDF_show
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_show byte
-var _cgo_5cb37de88943_Cfunc__PDF_show = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_show)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_show
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_show _cgo_0d5f714d6325_Cfunc__PDF_show
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_show byte
+var _cgo_0d5f714d6325_Cfunc__PDF_show = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_show)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_show(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_show, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_show, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_show_xy
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_show_xy _cgo_5cb37de88943_Cfunc__PDF_show_xy
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_show_xy byte
-var _cgo_5cb37de88943_Cfunc__PDF_show_xy = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_show_xy)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_show_xy
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_show_xy _cgo_0d5f714d6325_Cfunc__PDF_show_xy
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_show_xy byte
+var _cgo_0d5f714d6325_Cfunc__PDF_show_xy = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_show_xy)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_show_xy(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_double, p3 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_show_xy, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_show_xy, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2132,14 +2118,14 @@ func _Cfunc__PDF_show_xy(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_dou
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_skew
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_skew _cgo_5cb37de88943_Cfunc__PDF_skew
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_skew byte
-var _cgo_5cb37de88943_Cfunc__PDF_skew = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_skew)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_skew
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_skew _cgo_0d5f714d6325_Cfunc__PDF_skew
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_skew byte
+var _cgo_0d5f714d6325_Cfunc__PDF_skew = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_skew)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_skew(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_skew, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_skew, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2147,14 +2133,14 @@ func _Cfunc__PDF_skew(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_doubl
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_stringwidth
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_stringwidth _cgo_5cb37de88943_Cfunc__PDF_stringwidth
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_stringwidth byte
-var _cgo_5cb37de88943_Cfunc__PDF_stringwidth = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_stringwidth)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_stringwidth
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_stringwidth _cgo_0d5f714d6325_Cfunc__PDF_stringwidth
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_stringwidth byte
+var _cgo_0d5f714d6325_Cfunc__PDF_stringwidth = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_stringwidth)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_stringwidth(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype_int, p3 _Ctype_double) (r1 _Ctype_double) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_stringwidth, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_stringwidth, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2163,41 +2149,41 @@ func _Cfunc__PDF_stringwidth(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char, p2 _Ctype
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_stroke
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_stroke _cgo_5cb37de88943_Cfunc__PDF_stroke
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_stroke byte
-var _cgo_5cb37de88943_Cfunc__PDF_stroke = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_stroke)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_stroke
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_stroke _cgo_0d5f714d6325_Cfunc__PDF_stroke
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_stroke byte
+var _cgo_0d5f714d6325_Cfunc__PDF_stroke = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_stroke)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_stroke(p0 *_Ctype_struct_PDF_s) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_stroke, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_stroke, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_suspend_page
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_suspend_page _cgo_5cb37de88943_Cfunc__PDF_suspend_page
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_suspend_page byte
-var _cgo_5cb37de88943_Cfunc__PDF_suspend_page = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_suspend_page)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_suspend_page
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_suspend_page _cgo_0d5f714d6325_Cfunc__PDF_suspend_page
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_suspend_page byte
+var _cgo_0d5f714d6325_Cfunc__PDF_suspend_page = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_suspend_page)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_suspend_page(p0 *_Ctype_struct_PDF_s, p1 *_Ctype_char) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_suspend_page, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_suspend_page, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
 	}
 	return
 }
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__PDF_translate
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__PDF_translate _cgo_5cb37de88943_Cfunc__PDF_translate
-var __cgofn__cgo_5cb37de88943_Cfunc__PDF_translate byte
-var _cgo_5cb37de88943_Cfunc__PDF_translate = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__PDF_translate)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__PDF_translate
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__PDF_translate _cgo_0d5f714d6325_Cfunc__PDF_translate
+var __cgofn__cgo_0d5f714d6325_Cfunc__PDF_translate byte
+var _cgo_0d5f714d6325_Cfunc__PDF_translate = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__PDF_translate)
 
 //go:cgo_unsafe_args
 func _Cfunc__PDF_translate(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_double) (r1 _Ctype_void) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__PDF_translate, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__PDF_translate, uintptr(unsafe.Pointer(&p0)))
 	if _Cgo_always_false {
 		_Cgo_use(p0)
 		_Cgo_use(p1)
@@ -2206,17 +2192,17 @@ func _Cfunc__PDF_translate(p0 *_Ctype_struct_PDF_s, p1 _Ctype_double, p2 _Ctype_
 	return
 }
 
-//go:cgo_import_static _cgo_5cb37de88943_Cfunc__Cmalloc
-//go:linkname __cgofn__cgo_5cb37de88943_Cfunc__Cmalloc _cgo_5cb37de88943_Cfunc__Cmalloc
-var __cgofn__cgo_5cb37de88943_Cfunc__Cmalloc byte
-var _cgo_5cb37de88943_Cfunc__Cmalloc = unsafe.Pointer(&__cgofn__cgo_5cb37de88943_Cfunc__Cmalloc)
+//go:cgo_import_static _cgo_0d5f714d6325_Cfunc__Cmalloc
+//go:linkname __cgofn__cgo_0d5f714d6325_Cfunc__Cmalloc _cgo_0d5f714d6325_Cfunc__Cmalloc
+var __cgofn__cgo_0d5f714d6325_Cfunc__Cmalloc byte
+var _cgo_0d5f714d6325_Cfunc__Cmalloc = unsafe.Pointer(&__cgofn__cgo_0d5f714d6325_Cfunc__Cmalloc)
 
 //go:linkname runtime_throw runtime.throw
 func runtime_throw(string)
 
 //go:cgo_unsafe_args
 func _cgo_cmalloc(p0 uint64) (r1 unsafe.Pointer) {
-	_cgo_runtime_cgocall(_cgo_5cb37de88943_Cfunc__Cmalloc, uintptr(unsafe.Pointer(&p0)))
+	_cgo_runtime_cgocall(_cgo_0d5f714d6325_Cfunc__Cmalloc, uintptr(unsafe.Pointer(&p0)))
 	if r1 == nil {
 		runtime_throw("runtime: C malloc failed")
 	}
