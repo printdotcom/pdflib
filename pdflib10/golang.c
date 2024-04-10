@@ -49,8 +49,8 @@ void _PDF_begin_font(PDF *p, const char *fontname, int len, double a, double b, 
 	PDF_TRY(p) { PDF_begin_font(p, fontname, len, a, b, c, d, e, f, optlist); } PDF_CATCH(p) { }
 }
 
-void _PDF_begin_glyph_ext(PDF *p, const char *glyphname, double wx, double llx, double lly, double urx, double ury) {
-	PDF_TRY(p) { PDF_begin_glyph(p, glyphname, wx, llx, lly, urx, ury); } PDF_CATCH(p) { }
+void _PDF_begin_glyph_ext(PDF *p, int uv, const char *optlist) {
+	PDF_TRY(p) { PDF_begin_glyph_ext(p, uv, optlist); } PDF_CATCH(p) { }
 }
 
 int _PDF_begin_item(PDF *p, const char *tag, const char *optlist) {

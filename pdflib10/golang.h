@@ -28,7 +28,7 @@ int _PDF_begin_document(PDF *p, const char *filename, int len, const char *optli
 
 void _PDF_begin_font(PDF *p, const char *fontname, int len, double a, double b, double c, double d, double e, double f, const char *optlist);
 
-void _PDF_begin_glyph_ext(PDF *p, const char *glyphname, double wx, double llx, double lly, double urx, double ury);
+void _PDF_begin_glyph_ext(PDF *p, int uv, const char *optlist); 
 
 int _PDF_begin_item(PDF *p, const char *tag, const char *optlist);
 

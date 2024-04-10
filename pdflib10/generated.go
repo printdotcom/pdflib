@@ -99,8 +99,8 @@ func (p *PDFlib) BeginFont(fontname string, a, b, c, d, e, f float64, options st
 }
 
 // BeginGlyphExt ...
-func (p *PDFlib) BeginGlyphExt(glyphname string, wx, llx, lly, urx, ury float64) error {
-	C._PDF_begin_glyph_ext(p.val, C.CString(glyphname), C.double(wx), C.double(llx), C.double(lly), C.double(urx), C.double(ury))
+func (p *PDFlib) BeginGlyphExt(uv int, options string) error {
+	C._PDF_begin_glyph_ext(p.val, C.int(uv),C.CString(options))
 	return p.catch()
 }
 
