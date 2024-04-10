@@ -12,7 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build cgo
 // +build cgo
 
 package pdflib
@@ -33,10 +32,7 @@ type PDFlib struct {
 // New creates a new PDFlb instance.
 func New() *PDFlib {
 	pdflib := &PDFlib{val: C.PDF_new()}
-	err := pdflib.SetParameter("errorpolicy", "exception")
-	if err != nil {
-		return nil
-	}
+	pdflib.SetParameter("errorpolicy", "exception")
 	return pdflib
 }
 

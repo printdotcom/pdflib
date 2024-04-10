@@ -20,7 +20,7 @@ extern char* _cgo_topofstack(void);
 
 
 CGO_NO_SANITIZE_THREAD
-void _cgo_e88e7a84d71a_Cfunc__Cmalloc(void *v) {
+void _cgo_5cb37de88943_Cfunc__Cmalloc(void *v) {
 	struct {
 		unsigned long long p0;
 		void *r1;

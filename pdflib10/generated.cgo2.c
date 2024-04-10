@@ -21,7 +21,7 @@ static size_t _GoStringLen(_GoString_ s) { return (size_t)s.n; }
 __attribute__ ((unused))
 static const char *_GoStringPtr(_GoString_ s) { return s.p; }
 
-#line 20 "/home/athul/pdflib/pdflib10/main.go"
+#line 19 "/home/athul/pdflib/pdflib10/generated.go"
  #include <stdio.h>
  #include <stdlib.h>
  #include "golang.h"
@@ -73,7 +73,7 @@ extern char* _cgo_topofstack(void);
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc_PDF_get_buffer(void *v)
+_cgo_5cb37de88943_Cfunc_PDF_get_buffer(void *v)
 {
 	struct {
 		PDF* p0;
@@ -92,7 +92,7 @@ _cgo_e88e7a84d71a_Cfunc_PDF_get_buffer(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc_PDF_new(void *v)
+_cgo_5cb37de88943_Cfunc_PDF_new(void *v)
 {
 	struct {
 		PDF* r;
@@ -109,7 +109,7 @@ _cgo_e88e7a84d71a_Cfunc_PDF_new(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_add_nameddest(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_add_nameddest(void *v)
 {
 	struct {
 		PDF* p0;
@@ -125,7 +125,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_add_nameddest(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_add_path_point(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_add_path_point(void *v)
 {
 	struct {
 		PDF* p0;
@@ -150,7 +150,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_add_path_point(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_add_table_cell(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_add_table_cell(void *v)
 {
 	struct {
 		PDF* p0;
@@ -177,7 +177,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_add_table_cell(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_add_textflow(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_add_textflow(void *v)
 {
 	struct {
 		PDF* p0;
@@ -202,7 +202,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_add_textflow(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_add_thumbnail(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_add_thumbnail(void *v)
 {
 	struct {
 		PDF* p0;
@@ -216,7 +216,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_add_thumbnail(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_align(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_align(void *v)
 {
 	struct {
 		PDF* p0;
@@ -230,7 +230,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_align(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_arc(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_arc(void *v)
 {
 	struct {
 		PDF* p0;
@@ -247,7 +247,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_arc(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_arcn(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_arcn(void *v)
 {
 	struct {
 		PDF* p0;
@@ -264,7 +264,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_arcn(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_document(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_document(void *v)
 {
 	struct {
 		PDF* p0;
@@ -287,7 +287,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_document(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_font(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_font(void *v)
 {
 	struct {
 		PDF* p0;
@@ -309,7 +309,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_font(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_glyph(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_glyph(void *v)
 {
 	struct {
 		PDF* p0;
@@ -327,7 +327,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_glyph(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_item(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_item(void *v)
 {
 	struct {
 		PDF* p0;
@@ -348,7 +348,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_item(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_layer(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_layer(void *v)
 {
 	struct {
 		PDF* p0;
@@ -362,7 +362,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_layer(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_page_ext(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_page_ext(void *v)
 {
 	struct {
 		PDF* p0;
@@ -377,7 +377,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_page_ext(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_pattern(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_pattern(void *v)
 {
 	struct {
 		PDF* p0;
@@ -402,7 +402,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_pattern(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_begin_template_ext(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_begin_template_ext(void *v)
 {
 	struct {
 		PDF* p0;
@@ -424,7 +424,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_begin_template_ext(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_circle(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_circle(void *v)
 {
 	struct {
 		PDF* p0;
@@ -439,7 +439,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_circle(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_circular_arc(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_circular_arc(void *v)
 {
 	struct {
 		PDF* p0;
@@ -455,7 +455,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_circular_arc(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_clip(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_clip(void *v)
 {
 	struct {
 		PDF* p0;
@@ -467,7 +467,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_clip(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_close_font(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_close_font(void *v)
 {
 	struct {
 		PDF* p0;
@@ -481,7 +481,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_close_font(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_close_graphics(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_close_graphics(void *v)
 {
 	struct {
 		PDF* p0;
@@ -495,7 +495,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_close_graphics(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_close_image(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_close_image(void *v)
 {
 	struct {
 		PDF* p0;
@@ -509,7 +509,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_close_image(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_close_pdi_document(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_close_pdi_document(void *v)
 {
 	struct {
 		PDF* p0;
@@ -523,7 +523,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_close_pdi_document(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_close_pdi_page(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_close_pdi_page(void *v)
 {
 	struct {
 		PDF* p0;
@@ -537,7 +537,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_close_pdi_page(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_closepath(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_closepath(void *v)
 {
 	struct {
 		PDF* p0;
@@ -549,7 +549,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_closepath(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_closepath_fill_stroke(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_closepath_fill_stroke(void *v)
 {
 	struct {
 		PDF* p0;
@@ -561,7 +561,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_closepath_fill_stroke(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_closepath_stroke(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_closepath_stroke(void *v)
 {
 	struct {
 		PDF* p0;
@@ -573,7 +573,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_closepath_stroke(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_concat(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_concat(void *v)
 {
 	struct {
 		PDF* p0;
@@ -591,7 +591,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_concat(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_continue_text(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_continue_text(void *v)
 {
 	struct {
 		PDF* p0;
@@ -604,7 +604,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_continue_text(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_3dview(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_3dview(void *v)
 {
 	struct {
 		PDF* p0;
@@ -627,7 +627,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_3dview(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_action(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_action(void *v)
 {
 	struct {
 		PDF* p0;
@@ -648,7 +648,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_action(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_annotation(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_annotation(void *v)
 {
 	struct {
 		PDF* p0;
@@ -666,7 +666,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_annotation(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_bookmark(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_bookmark(void *v)
 {
 	struct {
 		PDF* p0;
@@ -689,7 +689,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_bookmark(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_field(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_field(void *v)
 {
 	struct {
 		PDF* p0;
@@ -710,7 +710,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_field(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_fieldgroup(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_fieldgroup(void *v)
 {
 	struct {
 		PDF* p0;
@@ -726,7 +726,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_fieldgroup(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_gstate(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_gstate(void *v)
 {
 	struct {
 		PDF* p0;
@@ -746,7 +746,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_gstate(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_pvf(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_pvf(void *v)
 {
 	struct {
 		PDF* p0;
@@ -764,7 +764,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_pvf(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_create_textflow(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_create_textflow(void *v)
 {
 	struct {
 		PDF* p0;
@@ -787,7 +787,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_create_textflow(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_curveto(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_curveto(void *v)
 {
 	struct {
 		PDF* p0;
@@ -805,7 +805,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_curveto(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_define_layer(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_define_layer(void *v)
 {
 	struct {
 		PDF* p0;
@@ -828,7 +828,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_define_layer(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_delete(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_delete(void *v)
 {
 	struct {
 		PDF* p0;
@@ -840,7 +840,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_delete(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_delete_path(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_delete_path(void *v)
 {
 	struct {
 		PDF* p0;
@@ -854,7 +854,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_delete_path(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_delete_pvf(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_delete_pvf(void *v)
 {
 	struct {
 		PDF* p0;
@@ -876,7 +876,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_delete_pvf(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_delete_table(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_delete_table(void *v)
 {
 	struct {
 		PDF* p0;
@@ -891,7 +891,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_delete_table(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_delete_textflow(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_delete_textflow(void *v)
 {
 	struct {
 		PDF* p0;
@@ -905,7 +905,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_delete_textflow(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_draw_path(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_draw_path(void *v)
 {
 	struct {
 		PDF* p0;
@@ -922,7 +922,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_draw_path(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_ellipse(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_ellipse(void *v)
 {
 	struct {
 		PDF* p0;
@@ -938,7 +938,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_ellipse(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_document(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_document(void *v)
 {
 	struct {
 		PDF* p0;
@@ -951,7 +951,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_document(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_font(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_font(void *v)
 {
 	struct {
 		PDF* p0;
@@ -963,7 +963,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_font(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_glyph(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_glyph(void *v)
 {
 	struct {
 		PDF* p0;
@@ -975,7 +975,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_glyph(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_item(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_item(void *v)
 {
 	struct {
 		PDF* p0;
@@ -989,7 +989,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_item(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_layer(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_layer(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1001,7 +1001,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_layer(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_mc(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_mc(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1013,7 +1013,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_mc(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_page_ext(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_page_ext(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1026,7 +1026,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_page_ext(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_pattern(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_pattern(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1038,7 +1038,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_pattern(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_end_template_ext(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_end_template_ext(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1052,7 +1052,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_end_template_ext(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_endpath(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_endpath(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1064,7 +1064,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_endpath(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fill(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fill(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1076,7 +1076,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fill(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fill_imageblock(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fill_imageblock(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1101,7 +1101,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fill_imageblock(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fill_pdfblock(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fill_pdfblock(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1126,7 +1126,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fill_pdfblock(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fill_stroke(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fill_stroke(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1138,7 +1138,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fill_stroke(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fill_textblock(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fill_textblock(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1164,7 +1164,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fill_textblock(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fit_graphics(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fit_graphics(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1181,7 +1181,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fit_graphics(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fit_image(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fit_image(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1198,7 +1198,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fit_image(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fit_pdi_page(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fit_pdi_page(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1215,7 +1215,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fit_pdi_page(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fit_table(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fit_table(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1240,7 +1240,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fit_table(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fit_textflow(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fit_textflow(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1265,7 +1265,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fit_textflow(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_fit_textline(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_fit_textline(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1283,7 +1283,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_fit_textline(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_get_errmsg(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_get_errmsg(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1301,7 +1301,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_get_errmsg(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_get_errnum(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_get_errnum(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1320,7 +1320,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_get_errnum(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_get_parameter(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_get_parameter(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1340,7 +1340,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_get_parameter(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_get_value(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_get_value(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1360,7 +1360,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_get_value(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_font(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_font(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1382,7 +1382,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_font(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_graphics(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_graphics(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1404,7 +1404,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_graphics(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_image(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_image(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1426,7 +1426,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_image(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_matchbox(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_matchbox(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1448,7 +1448,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_matchbox(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_path(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_path(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1470,7 +1470,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_path(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_pdi_page(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_pdi_page(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1492,7 +1492,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_pdi_page(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_table(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_table(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1513,7 +1513,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_table(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_textflow(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_textflow(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1534,7 +1534,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_textflow(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_info_textline(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_info_textline(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1557,7 +1557,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_info_textline(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_initgraphics(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_initgraphics(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1569,7 +1569,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_initgraphics(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_lineto(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_lineto(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1583,7 +1583,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_lineto(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_load_3ddata(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_load_3ddata(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1606,7 +1606,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_load_3ddata(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_load_font(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_load_font(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1630,7 +1630,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_load_font(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_load_graphics(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_load_graphics(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1654,7 +1654,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_load_graphics(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_load_iccprofile(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_load_iccprofile(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1677,7 +1677,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_load_iccprofile(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_load_image(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_load_image(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1701,7 +1701,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_load_image(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_makespotcolor(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_makespotcolor(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1723,7 +1723,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_makespotcolor(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_mc_point(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_mc_point(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1737,7 +1737,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_mc_point(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_moveto(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_moveto(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1751,7 +1751,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_moveto(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_open_pdi_document(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_open_pdi_document(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1774,7 +1774,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_open_pdi_document(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_open_pdi_page(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_open_pdi_page(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1796,7 +1796,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_open_pdi_page(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_pcos_get_number(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_pcos_get_number(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1817,7 +1817,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_pcos_get_number(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_pcos_get_string(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_pcos_get_string(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1838,7 +1838,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_pcos_get_string(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_poca_delete(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_poca_delete(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1853,7 +1853,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_poca_delete(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_poca_insert(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_poca_insert(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1868,7 +1868,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_poca_insert(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_poca_new(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_poca_new(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1888,7 +1888,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_poca_new(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_poca_remove(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_poca_remove(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1903,7 +1903,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_poca_remove(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_process_pdi(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_process_pdi(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1925,7 +1925,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_process_pdi(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_rcurveto(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_rcurveto(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1943,7 +1943,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_rcurveto(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_rect(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_rect(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1959,7 +1959,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_rect(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_restore(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_restore(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1971,7 +1971,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_restore(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_resume_page(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_resume_page(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1984,7 +1984,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_resume_page(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_rotate(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_rotate(void *v)
 {
 	struct {
 		PDF* p0;
@@ -1997,7 +1997,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_rotate(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_save(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_save(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2009,7 +2009,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_save(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_scale(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_scale(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2023,7 +2023,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_scale(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_graphics_option(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_graphics_option(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2036,7 +2036,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_graphics_option(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_gstate(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_gstate(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2050,7 +2050,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_gstate(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_info(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_info(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2064,7 +2064,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_info(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_layer_dependency(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_layer_dependency(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2078,7 +2078,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_layer_dependency(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_option(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_option(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2091,7 +2091,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_option(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_parameter(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_parameter(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2105,7 +2105,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_parameter(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_text_pos(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_text_pos(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2119,7 +2119,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_text_pos(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_set_value(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_set_value(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2133,7 +2133,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_set_value(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setcolor(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setcolor(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2151,7 +2151,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setcolor(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setdash(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setdash(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2165,7 +2165,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setdash(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setdashpattern(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setdashpattern(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2178,7 +2178,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setdashpattern(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setflat(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setflat(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2191,7 +2191,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setflat(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setfont(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setfont(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2206,7 +2206,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setfont(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setlinecap(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setlinecap(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2220,7 +2220,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setlinecap(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setlinejoin(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setlinejoin(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2234,7 +2234,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setlinejoin(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setlinewidth(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setlinewidth(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2247,7 +2247,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setlinewidth(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setmatrix(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setmatrix(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2265,7 +2265,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setmatrix(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_setmiterlimit(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_setmiterlimit(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2278,7 +2278,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_setmiterlimit(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_shading(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_shading(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2307,7 +2307,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_shading(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_shading_pattern(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_shading_pattern(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2329,7 +2329,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_shading_pattern(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_shfill(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_shfill(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2343,7 +2343,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_shfill(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_show(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_show(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2356,7 +2356,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_show(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_show_xy(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_show_xy(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2371,7 +2371,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_show_xy(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_skew(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_skew(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2385,7 +2385,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_skew(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_stringwidth(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_stringwidth(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2407,7 +2407,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_stringwidth(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_stroke(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_stroke(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2419,7 +2419,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_stroke(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_suspend_page(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_suspend_page(void *v)
 {
 	struct {
 		PDF* p0;
@@ -2432,7 +2432,7 @@ _cgo_e88e7a84d71a_Cfunc__PDF_suspend_page(void *v)
 
 CGO_NO_SANITIZE_THREAD
 void
-_cgo_e88e7a84d71a_Cfunc__PDF_translate(void *v)
+_cgo_5cb37de88943_Cfunc__PDF_translate(void *v)
 {
 	struct {
 		PDF* p0;
