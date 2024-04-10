@@ -245,8 +245,6 @@ void _PDF_set_layer_dependency(PDF *p, const char *type, const char *optlist);
 
 void _PDF_set_option(PDF *p, const char *optlist);
 
-// void _PDF_set_parameter(PDF *p, const char *key, const char *value);
-
 void _PDF_set_text_pos(PDF *p, double x, double y);
 
 // void _PDF_set_value(PDF *p, const char *key, double value);

@@ -33,7 +33,7 @@ type PDFlib struct {
 // New creates a new PDFlb instance.
 func New() *PDFlib {
 	pdflib := &PDFlib{val: C.PDF_new()}
-	pdflib.SetParameter("errorpolicy", "exception")
+	pdflib.SetOption("errorpolicy=exception")
 	return pdflib
 }
 
@@ -714,12 +714,6 @@ func (p *PDFlib) SetOption(options string) error {
 	return p.catch()
 }
 
-// FIXME
-// // SetParameter ...
-// func (p *PDFlib) SetParameter(key, value string) error {
-// 	C._PDF_set_parameter(p.val, C.CString(key), C.CString(value))
-// 	return p.catch()
-// }
 
 // SetTextPos ...
 func (p *PDFlib) SetTextPos(x, y float64) error {

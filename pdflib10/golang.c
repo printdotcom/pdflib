@@ -482,9 +482,6 @@ void _PDF_set_option(PDF *p, const char *optlist) {
 	PDF_TRY(p) { PDF_set_option(p, optlist); } PDF_CATCH(p) { }
 }
 
-// void _PDF_set_parameter(PDF *p, const char *key, const char *value) {
-// 	PDF_TRY(p) { PDF_set_parameter(p, key, value); } PDF_CATCH(p) { }
-// }
 
 void _PDF_set_text_pos(PDF *p, double x, double y) {
 	PDF_TRY(p) { PDF_set_text_pos(p, x, y); } PDF_CATCH(p) { }
