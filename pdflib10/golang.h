@@ -28,7 +28,7 @@ int _PDF_begin_document(PDF *p, const char *filename, int len, const char *optli
 
 void _PDF_begin_font(PDF *p, const char *fontname, int len, double a, double b, double c, double d, double e, double f, const char *optlist);
 
-void _PDF_begin_glyph(PDF *p, const char *glyphname, double wx, double llx, double lly, double urx, double ury);
+void _PDF_begin_glyph_ext(PDF *p, const char *glyphname, double wx, double llx, double lly, double urx, double ury);
 
 int _PDF_begin_item(PDF *p, const char *tag, const char *optlist);
 
@@ -38,7 +38,7 @@ void _PDF_begin_mc(PDF *p, const char *tag, const char *optlist);
 
 void _PDF_begin_page_ext(PDF *p, double width, double height, const char *optlist);
 
-int _PDF_begin_pattern(PDF *p, double width, double height, double xstep, double ystep, int painttype);
+int _PDF_begin_pattern_ext(PDF *p, double width, double height, double xstep, double ystep, int painttype);
 
 int _PDF_begin_template_ext(PDF *p, double width, double height, const char *optlist);
 
@@ -158,9 +158,10 @@ const char * _PDF_get_errmsg(PDF *p);
 
 int _PDF_get_errnum(PDF *p);
 
-const char * _PDF_get_parameter(PDF *p, const char *key, double modifier);
+// FIXME
+// const char * _PDF_get_parameter(PDF *p, const char *key, double modifier);
 
-double _PDF_get_value(PDF *p, const char *key, double modifier);
+// double _PDF_get_value(PDF *p, const char *key, double modifier);
 
 double _PDF_info_font(PDF *p, int font, const char *keyword, const char *optlist);
 
@@ -180,7 +181,7 @@ double _PDF_info_textflow(PDF *p, int textflow, const char *keyword);
 
 double _PDF_info_textline(PDF *p, const char *text, int len, const char *keyword, const char *optlist);
 
-void _PDF_initgraphics(PDF *p);
+// void _PDF_initgraphics(PDF *p);
 
 void _PDF_lineto(PDF *p, double x, double y);
 
@@ -244,17 +245,17 @@ void _PDF_set_layer_dependency(PDF *p, const char *type, const char *optlist);
 
 void _PDF_set_option(PDF *p, const char *optlist);
 
-void _PDF_set_parameter(PDF *p, const char *key, const char *value);
+// void _PDF_set_parameter(PDF *p, const char *key, const char *value);
 
 void _PDF_set_text_pos(PDF *p, double x, double y);
 
-void _PDF_set_value(PDF *p, const char *key, double value);
+// void _PDF_set_value(PDF *p, const char *key, double value);
 
 void _PDF_setcolor(PDF *p, const char *fstype, const char *colorspace, double c1, double c2, double c3, double c4);
 
-void _PDF_setdash(PDF *p, double b, double w);
+// void _PDF_setdash(PDF *p, double b, double w);
 
-void _PDF_setdashpattern(PDF *p, const char *optlist);
+// void _PDF_setdashpattern(PDF *p, const char *optlist);
 
 void _PDF_setflat(PDF *p, double flatness);
 

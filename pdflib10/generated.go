@@ -98,9 +98,9 @@ func (p *PDFlib) BeginFont(fontname string, a, b, c, d, e, f float64, options st
 	return p.catch()
 }
 
-// BeginGlyph ...
-func (p *PDFlib) BeginGlyph(glyphname string, wx, llx, lly, urx, ury float64) error {
-	C._PDF_begin_glyph(p.val, C.CString(glyphname), C.double(wx), C.double(llx), C.double(lly), C.double(urx), C.double(ury))
+// BeginGlyphExt ...
+func (p *PDFlib) BeginGlyphExt(glyphname string, wx, llx, lly, urx, ury float64) error {
+	C._PDF_begin_glyph_ext(p.val, C.CString(glyphname), C.double(wx), C.double(llx), C.double(lly), C.double(urx), C.double(ury))
 	return p.catch()
 }
 
@@ -122,9 +122,9 @@ func (p *PDFlib) BeginPageExt(w, h float64, options string) error {
 	return p.catch()
 }
 
-// BeginPattern ..
-func (p *PDFlib) BeginPattern(w, h, xstep, ystep float64, painttype int) (int, error) {
-	ret := int(C._PDF_begin_pattern(p.val, C.double(w), C.double(h), C.double(xstep), C.double(ystep), C.int(painttype)))
+// BeginPatternExt ..
+func (p *PDFlib) BeginPatternExt(w, h, xstep, ystep float64, painttype int) (int, error) {
+	ret := int(C._PDF_begin_pattern_ext(p.val, C.double(w), C.double(h), C.double(xstep), C.double(ystep), C.int(painttype)))
 	return ret, p.catch()
 }
 
@@ -452,17 +452,19 @@ func (p *PDFlib) GetBuffer() ([]byte, int, error) {
 	return ret, int(size), p.catch()
 }
 
-// GetParameter ...
-func (p *PDFlib) GetParameter(key string, modifier float64) (string, error) {
-	ret := C.GoString(C._PDF_get_parameter(p.val, C.CString(key), C.double(modifier)))
-	return ret, p.catch()
-}
+// FIXME
+// // GetParameter ...
+// func (p *PDFlib) GetParameter(key string, modifier float64) (string, error) {
+// 	ret := C.GoString(C._PDF_get_parameter(p.val, C.CString(key), C.double(modifier)))
+// 	return ret, p.catch()
+// }
 
-// GetValue ...
-func (p *PDFlib) GetValue(key string, modifier float64) (float64, error) {
-	ret := float64(C._PDF_get_value(p.val, C.CString(key), C.double(modifier)))
-	return ret, p.catch()
-}
+// FIXME
+// // GetValue ...
+// func (p *PDFlib) GetValue(key string, modifier float64) (float64, error) {
+// 	ret := float64(C._PDF_get_value(p.val, C.CString(key), C.double(modifier)))
+// 	return ret, p.catch()
+// }
 
 // InfoFont ...
 func (p *PDFlib) InfoFont(font int, keyword, options string) (float64, error) {
@@ -518,11 +520,12 @@ func (p *PDFlib) InfoTextline(text, keyword, options string) (float64, error) {
 	return ret, p.catch()
 }
 
-// InitGraphics ...
-func (p *PDFlib) InitGraphics() error {
-	C._PDF_initgraphics(p.val)
-	return p.catch()
-}
+// FIXME
+// // InitGraphics ...
+// func (p *PDFlib) InitGraphics() error {
+// 	C._PDF_initgraphics(p.val)
+// 	return p.catch()
+// }
 
 // LineTo ...
 func (p *PDFlib) LineTo(x, y float64) error {
@@ -638,11 +641,12 @@ func (p *PDFlib) ProcessPdi(doc, page int, options string) (int, error) {
 	return ret, p.catch()
 }
 
-// RCurveTo ...
-func (p *PDFlib) RCurveTo(x1, y1, x2, y2, x3, y3 float64) error {
-	C._PDF_rcurveto(p.val, C.double(x1), C.double(x1), C.double(y1), C.double(x2), C.double(y2), C.double(y3))
-	return p.catch()
-}
+// FIXME
+// // RCurveTo ...
+// func (p *PDFlib) RCurveTo(x1, y1, x2, y2, x3, y3 float64) error {
+// 	C._PDF_rcurveto(p.val, C.double(x1), C.double(x1), C.double(y1), C.double(x2), C.double(y2), C.double(y3))
+// 	return p.catch()
+// }
 
 // Rect ...
 func (p *PDFlib) Rect(x, y, w, h float64) error {
@@ -710,11 +714,12 @@ func (p *PDFlib) SetOption(options string) error {
 	return p.catch()
 }
 
-// SetParameter ...
-func (p *PDFlib) SetParameter(key, value string) error {
-	C._PDF_set_parameter(p.val, C.CString(key), C.CString(value))
-	return p.catch()
-}
+// FIXME
+// // SetParameter ...
+// func (p *PDFlib) SetParameter(key, value string) error {
+// 	C._PDF_set_parameter(p.val, C.CString(key), C.CString(value))
+// 	return p.catch()
+// }
 
 // SetTextPos ...
 func (p *PDFlib) SetTextPos(x, y float64) error {
@@ -722,11 +727,12 @@ func (p *PDFlib) SetTextPos(x, y float64) error {
 	return p.catch()
 }
 
-// SetValue ...
-func (p *PDFlib) SetValue(key string, value float64) error {
-	C._PDF_set_value(p.val, C.CString(key), C.double(value))
-	return p.catch()
-}
+// FIXME
+// // SetValue ...
+// func (p *PDFlib) SetValue(key string, value float64) error {
+// 	C._PDF_set_value(p.val, C.CString(key), C.double(value))
+// 	return p.catch()
+// }
 
 // SetColor ...
 func (p *PDFlib) SetColor(fstype, colorspace string, c1, c2, c3, c4 float64) error {
@@ -734,17 +740,19 @@ func (p *PDFlib) SetColor(fstype, colorspace string, c1, c2, c3, c4 float64) err
 	return p.catch()
 }
 
-// SetDash ...
-func (p *PDFlib) SetDash(b, w float64) error {
-	C._PDF_setdash(p.val, C.double(b), C.double(w))
-	return p.catch()
-}
+// FIXME
+// // SetDash ...
+// func (p *PDFlib) SetDash(b, w float64) error {
+// 	C._PDF_setdash(p.val, C.double(b), C.double(w))
+// 	return p.catch()
+// }
 
-// SetDashPattern ...
-func (p *PDFlib) SetDashPattern(options string) error {
-	C._PDF_setdashpattern(p.val, C.CString(options))
-	return p.catch()
-}
+// FIXME
+// // SetDashPattern ...
+// func (p *PDFlib) SetDashPattern(options string) error {
+// 	C._PDF_setdashpattern(p.val, C.CString(options))
+// 	return p.catch()
+// }
 
 // SetFlat ...
 func (p *PDFlib) SetFlat(flatness float64) error {

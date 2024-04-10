@@ -49,7 +49,7 @@ void _PDF_begin_font(PDF *p, const char *fontname, int len, double a, double b, 
 	PDF_TRY(p) { PDF_begin_font(p, fontname, len, a, b, c, d, e, f, optlist); } PDF_CATCH(p) { }
 }
 
-void _PDF_begin_glyph(PDF *p, const char *glyphname, double wx, double llx, double lly, double urx, double ury) {
+void _PDF_begin_glyph_ext(PDF *p, const char *glyphname, double wx, double llx, double lly, double urx, double ury) {
 	PDF_TRY(p) { PDF_begin_glyph(p, glyphname, wx, llx, lly, urx, ury); } PDF_CATCH(p) { }
 }
 
@@ -69,8 +69,8 @@ void _PDF_begin_page_ext(PDF *p, double width, double height, const char *optlis
 	PDF_TRY(p) { PDF_begin_page_ext(p, width, height, optlist); } PDF_CATCH(p) { }
 }
 
-int _PDF_begin_pattern(PDF *p, double width, double height, double xstep, double ystep, int painttype) {
-	PDF_TRY(p) { return PDF_begin_pattern(p, width, height, xstep, ystep, painttype); } PDF_CATCH(p) { } return 1;
+int _PDF_begin_pattern_ext(PDF *p, double width, double height, double xstep, double ystep, int painttype) {
+	PDF_TRY(p) { return PDF_begin_pattern_ext(p, width, height, xstep, ystep, painttype); } PDF_CATCH(p) { } return 1;
 }
 
 int _PDF_begin_template_ext(PDF *p, double width, double height, const char *optlist) {
@@ -309,13 +309,9 @@ int _PDF_get_errnum(PDF *p) {
 	PDF_TRY(p) { return PDF_get_errnum(p); } PDF_CATCH(p) { } return 0;
 }
 
-const char * _PDF_get_parameter(PDF *p, const char *key, double modifier) {
-	PDF_TRY(p) { return PDF_get_parameter(p, key, modifier); } PDF_CATCH(p) { } return "";
-}
-
-double _PDF_get_value(PDF *p, const char *key, double modifier) {
-	PDF_TRY(p) { return PDF_get_value(p, key, modifier); } PDF_CATCH(p) { } return -1;
-}
+// double _PDF_get_value(PDF *p, const char *key, double modifier) {
+// 	PDF_TRY(p) { return PDF_get_value(p, key, modifier); } PDF_CATCH(p) { } return -1;
+// }
 
 double _PDF_info_font(PDF *p, int font, const char *keyword, const char *optlist) {
 	PDF_TRY(p) { return PDF_info_font(p, font, keyword, optlist); } PDF_CATCH(p) { } return -1;
@@ -353,9 +349,9 @@ double _PDF_info_textline(PDF *p, const char *text, int len, const char *keyword
 	PDF_TRY(p) { return PDF_info_textline(p, text, len, keyword, optlist); } PDF_CATCH(p) { } return -1;
 }
 
-void _PDF_initgraphics(PDF *p) {
-	PDF_TRY(p) { PDF_initgraphics(p); } PDF_CATCH(p) { }
-}
+// void _PDF_initgraphics(PDF *p) {
+// 	PDF_TRY(p) { PDF_initgraphics(p); } PDF_CATCH(p) { }
+// }
 
 void _PDF_lineto(PDF *p, double x, double y) {
 	PDF_TRY(p) { PDF_lineto(p, x, y); } PDF_CATCH(p) { }
@@ -433,9 +429,9 @@ int _PDF_process_pdi(PDF *p, int doc, int page, const char *optlist) {
 	PDF_TRY(p) { return PDF_process_pdi(p, doc, page, optlist); } PDF_CATCH(p) { } return -1;
 }
 
-void _PDF_rcurveto(PDF *p, double x_1, double y_1, double x_2, double y_2, double x_3, double y_3) {
-	PDF_TRY(p) { PDF_rcurveto(p, x_1, y_1, x_2, y_2, x_3, y_3); } PDF_CATCH(p) { }
-}
+// void _PDF_rcurveto(PDF *p, double x_1, double y_1, double x_2, double y_2, double x_3, double y_3) {
+// 	PDF_TRY(p) { PDF_rcurveto(p, x_1, y_1, x_2, y_2, x_3, y_3); } PDF_CATCH(p) { }
+// }
 
 void _PDF_rect(PDF *p, double x, double y, double width, double height) {
 	PDF_TRY(p) { PDF_rect(p, x, y, width, height); } PDF_CATCH(p) { }
@@ -485,29 +481,29 @@ void _PDF_set_option(PDF *p, const char *optlist) {
 	PDF_TRY(p) { PDF_set_option(p, optlist); } PDF_CATCH(p) { }
 }
 
-void _PDF_set_parameter(PDF *p, const char *key, const char *value) {
-	PDF_TRY(p) { PDF_set_parameter(p, key, value); } PDF_CATCH(p) { }
-}
+// void _PDF_set_parameter(PDF *p, const char *key, const char *value) {
+// 	PDF_TRY(p) { PDF_set_parameter(p, key, value); } PDF_CATCH(p) { }
+// }
 
 void _PDF_set_text_pos(PDF *p, double x, double y) {
 	PDF_TRY(p) { PDF_set_text_pos(p, x, y); } PDF_CATCH(p) { }
 }
 
-void _PDF_set_value(PDF *p, const char *key, double value) {
-	PDF_TRY(p) { PDF_set_value(p, key, value); } PDF_CATCH(p) { }
-}
+// void _PDF_set_value(PDF *p, const char *key, double value) {
+// 	PDF_TRY(p) { PDF_set_value(p, key, value); } PDF_CATCH(p) { }
+// }
 
 void _PDF_setcolor(PDF *p, const char *fstype, const char *colorspace, double c1, double c2, double c3, double c4) {
 	PDF_TRY(p) { PDF_setcolor(p, fstype, colorspace, c1, c2, c3, c4); } PDF_CATCH(p) { }
 }
 
-void _PDF_setdash(PDF *p, double b, double w) {
-	PDF_TRY(p) { PDF_setdash(p, b, w); } PDF_CATCH(p) { }
-}
+// void _PDF_setdash(PDF *p, double b, double w) {
+// 	PDF_TRY(p) { PDF_setdash(p, b, w); } PDF_CATCH(p) { }
+// }
 
-void _PDF_setdashpattern(PDF *p, const char *optlist) {
-	PDF_TRY(p) { PDF_setdashpattern(p, optlist); } PDF_CATCH(p) { }
-}
+// void _PDF_setdashpattern(PDF *p, const char *optlist) {
+// 	PDF_TRY(p) { PDF_setdashpattern(p, optlist); } PDF_CATCH(p) { }
+// }
 
 void _PDF_setflat(PDF *p, double flatness) {
 	PDF_TRY(p) { PDF_setflat(p, flatness); } PDF_CATCH(p) { }
