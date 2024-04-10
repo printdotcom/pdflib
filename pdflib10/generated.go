@@ -123,8 +123,8 @@ func (p *PDFlib) BeginPageExt(w, h float64, options string) error {
 }
 
 // BeginPatternExt ..
-func (p *PDFlib) BeginPatternExt(w, h, xstep, ystep float64, painttype int) (int, error) {
-	ret := int(C._PDF_begin_pattern_ext(p.val, C.double(w), C.double(h), C.double(xstep), C.double(ystep), C.int(painttype)))
+func (p *PDFlib) BeginPatternExt(w, h float64, options string) (int, error) {
+	ret := int(C._PDF_begin_pattern_ext(p.val, C.double(w), C.double(h), C.CString(options)))
 	return ret, p.catch()
 }
 

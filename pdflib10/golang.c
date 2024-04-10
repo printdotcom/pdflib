@@ -69,8 +69,9 @@ void _PDF_begin_page_ext(PDF *p, double width, double height, const char *optlis
 	PDF_TRY(p) { PDF_begin_page_ext(p, width, height, optlist); } PDF_CATCH(p) { }
 }
 
-int _PDF_begin_pattern_ext(PDF *p, double width, double height, double xstep, double ystep, int painttype) {
-	PDF_TRY(p) { return PDF_begin_pattern_ext(p, width, height, xstep, ystep, painttype); } PDF_CATCH(p) { } return 1;
+
+int _PDF_begin_pattern_ext(PDF *p, double width, double height, const char *optlist) {
+	PDF_TRY(p) { return PDF_begin_pattern_ext(p, width, height, optlist); } PDF_CATCH(p) { } return 1;
 }
 
 int _PDF_begin_template_ext(PDF *p, double width, double height, const char *optlist) {

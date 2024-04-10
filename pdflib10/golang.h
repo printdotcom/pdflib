@@ -38,7 +38,7 @@ void _PDF_begin_mc(PDF *p, const char *tag, const char *optlist);
 
 void _PDF_begin_page_ext(PDF *p, double width, double height, const char *optlist);
 
-int _PDF_begin_pattern_ext(PDF *p, double width, double height, double xstep, double ystep, int painttype);
+int _PDF_begin_pattern_ext(PDF *p, double width, double height, const char *optlist);
 
 int _PDF_begin_template_ext(PDF *p, double width, double height, const char *optlist);
 
