@@ -527,9 +527,9 @@ void _PDF_setmatrix(PDF *p, double a, double b, double c, double d, double e, do
 	PDF_TRY(p) { PDF_setmatrix(p, a, b, c, d, e, f); } PDF_CATCH(p) { }
 }
 
-void _PDF_setmiterlimit(PDF *p, double miter) {
-	PDF_TRY(p) { PDF_setmiterlimit(p, miter); } PDF_CATCH(p) { }
-}
+// void _PDF_setmiterlimit(PDF *p, double miter) {
+// 	PDF_TRY(p) { PDF_setmiterlimit(p, miter); } PDF_CATCH(p) { }
+// }
 
 int _PDF_shading(PDF *p, const char *shtype, double x_0, double y_0, double x_1, double y_1, double c_1, double c_2, double c_3, double c_4, const char *optlist) {
 	PDF_TRY(p) { PDF_shading(p, shtype, x_0, y_0, x_1, y_1, c_1, c_2, c_3, c_4, optlist); } PDF_CATCH(p) { } return 0;

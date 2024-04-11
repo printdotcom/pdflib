@@ -784,11 +784,11 @@ func (p *PDFlib) SetMatrix(a, b, c, d, e, f float64) error {
 	return p.catch()
 }
 
-// SetMiterLimit ...
-func (p *PDFlib) SetMiterLimit(miter float64) error {
-	C._PDF_setmiterlimit(p.val, C.double(miter))
-	return p.catch()
-}
+// // SetMiterLimit ...
+// func (p *PDFlib) SetMiterLimit(miter float64) error {
+// 	C._PDF_setmiterlimit(p.val, C.double(miter))
+// 	return p.catch()
+// }
 
 // Shading ...
 func (p *PDFlib) Shading(shtype string, x0, y0, x1, y1, c1, c2, c3, c4 float64, options string) (int, error) {

@@ -267,7 +267,7 @@ void _PDF_setlinewidth(PDF *p, double width);
 
 void _PDF_setmatrix(PDF *p, double a, double b, double c, double d, double e, double f);
 
-void _PDF_setmiterlimit(PDF *p, double miter);
+// void _PDF_setmiterlimit(PDF *p, double miter);
 
 int _PDF_shading(PDF *p, const char *shtype, double x_0, double y_0, double x_1, double y_1, double c_1, double c_2, double c_3, double c_4, const char *optlist);
 
