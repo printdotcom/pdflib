@@ -748,11 +748,11 @@ func (p *PDFlib) SetColor(fstype, colorspace string, c1, c2, c3, c4 float64) err
 // 	return p.catch()
 // }
 
-// SetFlat ...
-func (p *PDFlib) SetFlat(flatness float64) error {
-	C._PDF_setflat(p.val, C.double(flatness))
-	return p.catch()
-}
+// // SetFlat ...
+// func (p *PDFlib) SetFlat(flatness float64) error {
+// 	C._PDF_setflat(p.val, C.double(flatness))
+// 	return p.catch()
+// }
 
 // SetFont ...
 func (p *PDFlib) SetFont(font int, fontsize float64) error {
@@ -760,17 +760,17 @@ func (p *PDFlib) SetFont(font int, fontsize float64) error {
 	return p.catch()
 }
 
-// SetLinecap ...
-func (p *PDFlib) SetLinecap(linecap int) error {
-	C._PDF_setlinecap(p.val, C.int(linecap))
-	return p.catch()
-}
+// // SetLinecap ...
+// func (p *PDFlib) SetLinecap(linecap int) error {
+// 	C._PDF_setlinecap(p.val, C.int(linecap))
+// 	return p.catch()
+// }
 
-// SetLinejoin ...
-func (p *PDFlib) SetLinejoin(linejoin int) error {
-	C._PDF_setlinejoin(p.val, C.int(linejoin))
-	return p.catch()
-}
+// // SetLinejoin ...
+// func (p *PDFlib) SetLinejoin(linejoin int) error {
+// 	C._PDF_setlinejoin(p.val, C.int(linejoin))
+// 	return p.catch()
+// }
 
 // SetLinewidth ...
 func (p *PDFlib) SetLinewidth(width float64) error {
