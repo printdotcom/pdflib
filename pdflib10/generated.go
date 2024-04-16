@@ -15,7 +15,7 @@
 // +build cgo
 
 package pdflib
-// #cgo LDFLAGS: -L /home/athul/pdflib/pdflib10/lib/ -lpdf -lm  -lstdc++
+// #cgo LDFLAGS: -L${SRCDIR}/lib/ -lpdf -lm  -lstdc++
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include "golang.h"
@@ -452,20 +452,6 @@ func (p *PDFlib) GetBuffer() ([]byte, int, error) {
 	return ret, int(size), p.catch()
 }
 
-// FIXME
-// // GetParameter ...
-// func (p *PDFlib) GetParameter(key string, modifier float64) (string, error) {
-// 	ret := C.GoString(C._PDF_get_parameter(p.val, C.CString(key), C.double(modifier)))
-// 	return ret, p.catch()
-// }
-
-// FIXME
-// // GetValue ...
-// func (p *PDFlib) GetValue(key string, modifier float64) (float64, error) {
-// 	ret := float64(C._PDF_get_value(p.val, C.CString(key), C.double(modifier)))
-// 	return ret, p.catch()
-// }
-
 // InfoFont ...
 func (p *PDFlib) InfoFont(font int, keyword, options string) (float64, error) {
 	ret := float64(C._PDF_info_font(p.val, C.int(font), C.CString(keyword), C.CString(options)))
@@ -519,13 +505,6 @@ func (p *PDFlib) InfoTextline(text, keyword, options string) (float64, error) {
 	ret := float64(C._PDF_info_textline(p.val, C.CString(text), 0, C.CString(keyword), C.CString(options)))
 	return ret, p.catch()
 }
-
-// FIXME
-// // InitGraphics ...
-// func (p *PDFlib) InitGraphics() error {
-// 	C._PDF_initgraphics(p.val)
-// 	return p.catch()
-// }
 
 // LineTo ...
 func (p *PDFlib) LineTo(x, y float64) error {
@@ -641,13 +620,6 @@ func (p *PDFlib) ProcessPdi(doc, page int, options string) (int, error) {
 	return ret, p.catch()
 }
 
-// FIXME
-// // RCurveTo ...
-// func (p *PDFlib) RCurveTo(x1, y1, x2, y2, x3, y3 float64) error {
-// 	C._PDF_rcurveto(p.val, C.double(x1), C.double(x1), C.double(y1), C.double(x2), C.double(y2), C.double(y3))
-// 	return p.catch()
-// }
-
 // Rect ...
 func (p *PDFlib) Rect(x, y, w, h float64) error {
 	C._PDF_rect(p.val, C.double(x), C.double(y), C.double(w), C.double(h))
@@ -721,56 +693,17 @@ func (p *PDFlib) SetTextPos(x, y float64) error {
 	return p.catch()
 }
 
-// FIXME
-// // SetValue ...
-// func (p *PDFlib) SetValue(key string, value float64) error {
-// 	C._PDF_set_value(p.val, C.CString(key), C.double(value))
-// 	return p.catch()
-// }
-
 // SetColor ...
 func (p *PDFlib) SetColor(fstype, colorspace string, c1, c2, c3, c4 float64) error {
 	C._PDF_setcolor(p.val, C.CString(fstype), C.CString(colorspace), C.double(c1), C.double(c2), C.double(c3), C.double(c4))
 	return p.catch()
 }
 
-// FIXME
-// // SetDash ...
-// func (p *PDFlib) SetDash(b, w float64) error {
-// 	C._PDF_setdash(p.val, C.double(b), C.double(w))
-// 	return p.catch()
-// }
-
-// FIXME
-// // SetDashPattern ...
-// func (p *PDFlib) SetDashPattern(options string) error {
-// 	C._PDF_setdashpattern(p.val, C.CString(options))
-// 	return p.catch()
-// }
-
-// // SetFlat ...
-// func (p *PDFlib) SetFlat(flatness float64) error {
-// 	C._PDF_setflat(p.val, C.double(flatness))
-// 	return p.catch()
-// }
-
 // SetFont ...
 func (p *PDFlib) SetFont(font int, fontsize float64) error {
 	C._PDF_setfont(p.val, C.int(font), C.double(fontsize))
 	return p.catch()
 }
-
-// // SetLinecap ...
-// func (p *PDFlib) SetLinecap(linecap int) error {
-// 	C._PDF_setlinecap(p.val, C.int(linecap))
-// 	return p.catch()
-// }
-
-// // SetLinejoin ...
-// func (p *PDFlib) SetLinejoin(linejoin int) error {
-// 	C._PDF_setlinejoin(p.val, C.int(linejoin))
-// 	return p.catch()
-// }
 
 // SetLinewidth ...
 func (p *PDFlib) SetLinewidth(width float64) error {
@@ -783,12 +716,6 @@ func (p *PDFlib) SetMatrix(a, b, c, d, e, f float64) error {
 	C._PDF_setmatrix(p.val, C.double(a), C.double(b), C.double(c), C.double(d), C.double(e), C.double(f))
 	return p.catch()
 }
-
-// // SetMiterLimit ...
-// func (p *PDFlib) SetMiterLimit(miter float64) error {
-// 	C._PDF_setmiterlimit(p.val, C.double(miter))
-// 	return p.catch()
-// }
 
 // Shading ...
 func (p *PDFlib) Shading(shtype string, x0, y0, x1, y1, c1, c2, c3, c4 float64, options string) (int, error) {

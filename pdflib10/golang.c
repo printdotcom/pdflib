@@ -310,10 +310,6 @@ int _PDF_get_errnum(PDF *p) {
 	PDF_TRY(p) { return PDF_get_errnum(p); } PDF_CATCH(p) { } return 0;
 }
 
-// double _PDF_get_value(PDF *p, const char *key, double modifier) {
-// 	PDF_TRY(p) { return PDF_get_value(p, key, modifier); } PDF_CATCH(p) { } return -1;
-// }
-
 double _PDF_info_font(PDF *p, int font, const char *keyword, const char *optlist) {
 	PDF_TRY(p) { return PDF_info_font(p, font, keyword, optlist); } PDF_CATCH(p) { } return -1;
 }
@@ -349,10 +345,6 @@ double _PDF_info_textflow(PDF *p, int textflow, const char *keyword) {
 double _PDF_info_textline(PDF *p, const char *text, int len, const char *keyword, const char *optlist) {
 	PDF_TRY(p) { return PDF_info_textline(p, text, len, keyword, optlist); } PDF_CATCH(p) { } return -1;
 }
-
-// void _PDF_initgraphics(PDF *p) {
-// 	PDF_TRY(p) { PDF_initgraphics(p); } PDF_CATCH(p) { }
-// }
 
 void _PDF_lineto(PDF *p, double x, double y) {
 	PDF_TRY(p) { PDF_lineto(p, x, y); } PDF_CATCH(p) { }
@@ -430,10 +422,6 @@ int _PDF_process_pdi(PDF *p, int doc, int page, const char *optlist) {
 	PDF_TRY(p) { return PDF_process_pdi(p, doc, page, optlist); } PDF_CATCH(p) { } return -1;
 }
 
-// void _PDF_rcurveto(PDF *p, double x_1, double y_1, double x_2, double y_2, double x_3, double y_3) {
-// 	PDF_TRY(p) { PDF_rcurveto(p, x_1, y_1, x_2, y_2, x_3, y_3); } PDF_CATCH(p) { }
-// }
-
 void _PDF_rect(PDF *p, double x, double y, double width, double height) {
 	PDF_TRY(p) { PDF_rect(p, x, y, width, height); } PDF_CATCH(p) { }
 }
@@ -487,37 +475,13 @@ void _PDF_set_text_pos(PDF *p, double x, double y) {
 	PDF_TRY(p) { PDF_set_text_pos(p, x, y); } PDF_CATCH(p) { }
 }
 
-// void _PDF_set_value(PDF *p, const char *key, double value) {
-// 	PDF_TRY(p) { PDF_set_value(p, key, value); } PDF_CATCH(p) { }
-// }
-
 void _PDF_setcolor(PDF *p, const char *fstype, const char *colorspace, double c1, double c2, double c3, double c4) {
 	PDF_TRY(p) { PDF_setcolor(p, fstype, colorspace, c1, c2, c3, c4); } PDF_CATCH(p) { }
 }
 
-// void _PDF_setdash(PDF *p, double b, double w) {
-// 	PDF_TRY(p) { PDF_setdash(p, b, w); } PDF_CATCH(p) { }
-// }
-
-// void _PDF_setdashpattern(PDF *p, const char *optlist) {
-// 	PDF_TRY(p) { PDF_setdashpattern(p, optlist); } PDF_CATCH(p) { }
-// }
-
-// void _PDF_setflat(PDF *p, double flatness) {
-// 	PDF_TRY(p) { PDF_setflat(p, flatness); } PDF_CATCH(p) { }
-// }
-
 void _PDF_setfont(PDF *p, int font, double fontsize) {
 	PDF_TRY(p) { PDF_setfont(p, font, fontsize); } PDF_CATCH(p) { }
 }
-
-// void _PDF_setlinecap(PDF *p, int linecap) {
-// 	PDF_TRY(p) { PDF_setlinecap(p, linecap); } PDF_CATCH(p) { }
-// }
-
-// void _PDF_setlinejoin(PDF *p, int linejoin) {
-// 	PDF_TRY(p) { PDF_setlinejoin(p, linejoin); } PDF_CATCH(p) { }
-// }
 
 void _PDF_setlinewidth(PDF *p, double width) {
 	PDF_TRY(p) { PDF_setlinewidth(p, width); } PDF_CATCH(p) { }
@@ -526,10 +490,6 @@ void _PDF_setlinewidth(PDF *p, double width) {
 void _PDF_setmatrix(PDF *p, double a, double b, double c, double d, double e, double f) {
 	PDF_TRY(p) { PDF_setmatrix(p, a, b, c, d, e, f); } PDF_CATCH(p) { }
 }
-
-// void _PDF_setmiterlimit(PDF *p, double miter) {
-// 	PDF_TRY(p) { PDF_setmiterlimit(p, miter); } PDF_CATCH(p) { }
-// }
 
 int _PDF_shading(PDF *p, const char *shtype, double x_0, double y_0, double x_1, double y_1, double c_1, double c_2, double c_3, double c_4, const char *optlist) {
 	PDF_TRY(p) { PDF_shading(p, shtype, x_0, y_0, x_1, y_1, c_1, c_2, c_3, c_4, optlist); } PDF_CATCH(p) { } return 0;
@@ -582,27 +542,3 @@ void _PDF_suspend_page(PDF *p, const char *optlist) {
 void _PDF_translate(PDF *p, double tx, double ty) {
 	PDF_TRY(p) { PDF_translate(p, tx, ty); } PDF_CATCH(p) { }
 }
-
-// const char * _PDF_utf16_to_utf8(PDF *p, const char *utf16string, int len, int *size) {
-// 	PDF_TRY(p) { return PDF_utf16_to_utf8(p, utf16string, len, size); } PDF_CATCH(p) { } return "";
-// }
-
-// const char * _PDF_utf8_to_utf16(PDF *p, const char *utf8string, const char *ordering, int *size) {
-// 	PDF_TRY(p) { return PDF_utf8_to_utf16(p, utf8string, ordering, size); } PDF_CATCH(p) { } return "";
-// }
-
-// const char * _PDF_utf32_to_utf8(PDF *p, const char *utf32string, int len, int *size) {
-// 	PDF_TRY(p) { return PDF_utf32_to_utf8(p, utf32string, len, size); } PDF_CATCH(p) { } return "";
-// }
-
-// const char * _PDF_utf8_to_utf32(PDF *p, const char *utf8string, const char *ordering, int *size) {
-// 	PDF_TRY(p) { return PDF_utf8_to_utf32(p, utf8string, ordering, size); } PDF_CATCH(p) { } return "";
-// }
-
-// const char * _PDF_utf16_to_utf32(PDF *p, const char *utf16string, int len, const char *ordering, int *size) {
-// 	PDF_TRY(p) { return PDF_utf16_to_utf32(p, utf16string, len, ordering, size); } PDF_CATCH(p) { } return "";
-// }
-
-// const char * _PDF_utf32_to_utf16(PDF *p, const char *utf32string, int len, const char *ordering, int *size) {
-// 	PDF_TRY(p) { return PDF_utf32_to_utf16(p, utf32string, len, ordering, size); } PDF_CATCH(p) { } return "";
-// }
