@@ -15,7 +15,7 @@
 // +build cgo
 
 package pdflib
-// #cgo LDFLAGS: -L${SRCDIR}/lib/ -lpdf -lm  -lstdc++
+// #cgo LDFLAGS: -L${SRCDIR}/lib -lpdf -lm  -lstdc++
 // #include <stdio.h>
 // #include <stdlib.h>
 // #include "golang.h"
